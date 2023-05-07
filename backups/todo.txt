@@ -1,0 +1,77 @@
+Remember 4th may 2023
+username : phi
+
+start learning things in a organised way
+1. keep notes
+2. build projects
+3. enjoy the process
+
+WORKS
+-----
+[ ] update razite
+[ ] exercise sheduler
+[x] change portfolio website
+[ ] naveen's work
+
+URLS
+----
+linux.die.net
+https://eztvtorrentz.net/tv-series/mr-robot-2139
+https://ytstv.me/series/mr-robot-tv-series-2015#
+https://ww2.1337x.buzz/search/
+
+bhavesh joshi - https://youtu.be/EnVzfcG9IWY
+imitaion game - https://www.youtube.com/watch?v=U_xE807vc6g
+
+mysql password - 867
+https://dev.mysql.com/downloads/mysql/
+
+TO BINGE
+--------
+no smoking
+Byomkesh
+chacha vidhayak hai hamare
+mrizapur s2
+back to the future
+silicon valley
+the office
+panchayat
+hostel daze
+colledge romance
+money heist
+flames
+
+NOTICE
+------
+STORE ssethtzeentach content
+Runner.instance_.gameOver = () => {};
+
+TOPICS
+------
+decentralised web
+search engine optimization
+
+JS FRAMEWORK WITH FETCHING HTML COMPONENTS
+OWN WEBSITE AND SYNC DATA TO IT. (contacts)
+EXERCISE SHEDULEAR
+CALCULATOR
+
+PROJECTS
+--------
+
+[ ] notes taking app
+[ ] postroom 
+[ ] PIPESCRIPT
+[ ] the hunt
+[ ] ascii action
+
+COMPLETED
+---------
+[x] in the sky
+[x] unit conveter
+[x] editmd
+[x] RAZITE
+[x] BTSS
+[x] TYPETEST
+[x] portfolio website
+[x] UHC
