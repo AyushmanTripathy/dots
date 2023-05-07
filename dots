@@ -5,13 +5,13 @@ LOCATION="$HOME/dots"
 push_to_git(){
   # pushing to git  
   echo 'PUSHING'
-  update-git
+  update-remote
   git add .
   git commit -m "backup $(date)"
   git push -u origin master
 
   cd $HOME/bin
-  update-git
+  update-remote
   git add .
   git commit -m "backup $(date)"
   git push -u origin master
