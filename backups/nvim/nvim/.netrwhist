@@ -1,5 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =8
+let g:netrw_dirhistcnt =9
+let g:netrw_dirhist_9='/home/suprada/pips/src'
 let g:netrw_dirhist_8='/home/suprada/dots/backups'
 let g:netrw_dirhist_7='/home/suprada/conf/nvim'
 let g:netrw_dirhist_6='/home/ayushmantripathy2004/.pat'
@@ -9,4 +10,3 @@ let g:netrw_dirhist_3='/home/ayushmantripathy2004/portfolio/src/routes'
 let g:netrw_dirhist_2='/home/ayushmantripathy2004/portfolio/src'
 let g:netrw_dirhist_1='/home/ayushmantripathy2004/portfolio'
 let g:netrw_dirhist_0='/home/ayushmantripathy2004/portfolio/static'
-let g:netrw_dirhist_9='/home/ayushmantripathy2004/.pat'

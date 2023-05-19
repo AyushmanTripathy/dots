@@ -1351,3 +1351,138 @@ commit message:  added readme
 ### creating ###
 name = dots
 
+### push ###
+Sunday 07 May 2023 05:23:45 PM IST
+commit message:  added Readme
+/home/suprada/dots
+
+### push ###
+Sunday 07 May 2023 05:51:35 PM IST
+commit message:  c
+/home/suprada/notes
+
+### push ###
+Monday 08 May 2023 12:53:43 PM IST
+commit message:  fibonnacci
+/home/suprada/c
+
+### push ###
+Monday 08 May 2023 02:23:01 PM IST
+commit message:  tree
+/home/suprada/c
+
+### push ###
+Monday 08 May 2023 02:31:53 PM IST
+commit message:  created relese
+/home/suprada/razite
+
+### merge ###
+/home/suprada/razite
+
+### push ###
+Tuesday 09 May 2023 07:19:33 PM IST
+commit message:  knapsack
+/home/suprada/c
+
+### creating ###
+name = pips
+
+### push ###
+Thursday 11 May 2023 11:08:32 PM IST
+commit message:  working on ifs
+/home/suprada/pips
+
+### push ###
+Friday 12 May 2023 03:54:17 PM IST
+commit message:  init
+/home/suprada/.autocommiter
+
+### creating ###
+name = .autocommiter
+
+### push ###
+Sunday 14 May 2023 11:39:46 AM IST
+commit message:  17th
+/home/suprada/ocw
+
+### creating ###
+name = sample_data
+
+### push ###
+Sunday 14 May 2023 12:38:11 PM IST
+commit message:  init
+/home/suprada/sample_data
+
+### push ###
+Sunday 14 May 2023 02:34:15 PM IST
+commit message:  hashmaps
+/home/suprada/c
+
+### push ###
+Sunday 14 May 2023 05:37:12 PM IST
+commit message:  added hashmap
+/home/suprada/pips
+
+### push ###
+Sunday 14 May 2023 09:32:07 PM IST
+commit message:  deleted hashmap.c
+/home/suprada/pips
+
+### creating ###
+name = VimCompletesMe
+
+### push ###
+Monday 15 May 2023 06:47:04 PM IST
+commit message:  init
+/home/suprada/.vim/autoload/plugged/VimCompletesMe
+
+### push ###
+Monday 15 May 2023 06:47:59 PM IST
+commit message:  removed readme
+/home/suprada/.vim/autoload/plugged/VimCompletesMe
+
+### push ###
+Monday 15 May 2023 10:14:38 PM IST
+commit message:  added statment execution
+/home/suprada/pips
+
+### push ###
+Tuesday 16 May 2023 03:14:55 PM IST
+commit message:  working on adding make
+/home/suprada/pips
+
+### push ###
+Tuesday 16 May 2023 05:25:47 PM IST
+commit message:  added make
+/home/suprada/pips
+
+### push ###
+Tuesday 16 May 2023 06:00:47 PM IST
+commit message:  added exec.c
+/home/suprada/pips
+
+### push ###
+Tuesday 16 May 2023 08:10:41 PM IST
+commit message:  implementing conditionals
+/home/suprada/pips
+
+### push ###
+Wednesday 17 May 2023 02:47:02 PM IST
+commit message:  fixed createToken bug
+/home/suprada/pips
+
+### push ###
+Wednesday 17 May 2023 04:51:10 PM IST
+commit message:  fixed parseIfstatment bug
+/home/suprada/pips
+
+### push ###
+Wednesday 17 May 2023 08:38:02 PM IST
+commit message:  added variable hashmap
+/home/suprada/pips
+
+### push ###
+Friday 19 May 2023 11:43:57 AM IST
+commit message:  added Readme
+/home/suprada/pips
+

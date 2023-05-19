@@ -9,7 +9,6 @@ alias xclip="xclip -sel clip"
 alias svelte-init='npm init svelte@next'
 alias live-server='live-server --no-browser'
 alias nodemon='nodemon -I'
-alias watchc='nodemon -I -x "gcc main.c && ./a.out" -w main.c'
 alias quote='printf "\n$(sort -R ~/quotes.txt | head -n1)\n"'
 
 alias cpc="echo 'chup pad chutiya'"
