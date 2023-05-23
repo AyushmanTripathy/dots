@@ -1,7 +1,5 @@
 11_am.mp3 chill hindi https://youtu.be/D7o9lJTgXBo
 ajag_aasaam.mp3 chill hindi https://youtu.be/vA86QFrXoho
-taare.mp3 chill hindi https://youtu.be/9iTkkIP2aoo
-abcdefu.mp3 chill english https://www.youtube.com/watch?v=mcuGjQghM_g
 ambarsariya.mp3 chill hindi https://youtu.be/9UDkYz64ehA
 ankhan_vich_surma_kala.mp3 chill punjabi https://youtu.be/l7BgMAonSic
 babaji_ki_booty.mp3 chill hindi https://youtu.be/eNbUNSNdYu4
@@ -38,7 +36,7 @@ at_my_worst.mp3 chill english https://www.youtube.com/watch?v=JVUgD50m_LA&ab_cha
 chhodo_kaliyan.mp3 chill hindi https://youtu.be/fWT9VNA7AyU
 gode_pe_sawar.mp3 chill hindi https://youtu.be/cY4FmcWT0Rc
 kya_leke_aya_jagat_me.mp3 chill hindi https://youtu.be/9VNI3s7rUoQ
-pehli_dafa.mp3 chill hindi https://youtu.be/SxTYjptEzZs
+pehli_dafa.mp3 romantic.txt hindi https://youtu.be/SxTYjptEzZs
 dooriyaan.mp3 rap hindi https://youtu.be/VDrO044VHpY
 chal_bombay.mp3 rap hindi https://youtu.be/FS9dkwhPypY
 khatam_hue_waande.mp3 rap hindi https://youtu.be/nu2MOmczxwQ
@@ -102,7 +100,6 @@ alien_shooter_2_action_track.mp3 weird others https://youtu.be/kYHFa_T1fNw
 alien_shooter_2_track.mp3 weird others https://youtu.be/2JmlMZz2faU
 fertile.mp3 weird others https://youtu.be/fbIpLGFi1CE
 scorching_winds.mp3 weird others https://youtu.be/DUXNorZWQiI
-afterdark.mp3 dance english https://youtu.be/oPLVi7zcaiQ
 tu_jaane_na.mp3 romantic.txt hindi https://youtu.be/P8PWN1OmZOA
 aye_meri_zohrajabeen.mp3 happy.txt hindi https://youtu.be/EH9yR6T4ePI
 angreji_beat.mp3 happy.txt punjabi https://youtu.be/Iu8210k9WQc
@@ -138,3 +135,12 @@ prem_ki_naiyya.mp3 romantic.txt hindi https://youtu.be/J3Ux5TQ4oUc
 tera_hone_laga_hoon.mp3 romantic.txt hindi https://youtu.be/rTuxUAuJRyY
 juda_hoke_bhi.mp3 romantic.txt hindi https://youtu.be/eK5gPcFjQps
 jiya_dhadak_dhadak_jaye.mp3 romantic.txt hindi https://youtu.be/iR78WsAiAKQ
+i_swallowed_shampoo.mp3 weird.txt english https://youtu.be/4uf_pn1pPAQ
+hey_there_delilah.mp3 chill.txt english https://youtu.be/h_m-BjrxmgI
+1234.mp3 chill.txt english https://youtu.be/m6pW_q1PvH0
+forever.mp3 happy.txt english https://youtu.be/5sMKX22BHeE
+night_changes.mp3 romantic.txt english https://youtu.be/syFZfO_wfMQ
+happier.mp3 happy.txt english https://youtu.be/m7Bc3pLyij0
+doo_doo_in_my_butt.mp3 weird.txt english https://youtu.be/OMmgAS5dmhA
+goodbye_moonmen.mp3 weird.txt english https://youtu.be/TgqiSBxvdws
+time_for_africa.mp3 high.txt english https://youtu.be/Ntn1-SocNiY
