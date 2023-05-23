@@ -4,7 +4,6 @@ export EDITOR="nvim"
 export GITHUB_USERNAME="AyushmanTripathy"
 export MUSICDB="$HOME/Music"
 
-export PATH="$PATH:$HOME/bin:$HOME/.local/bin:$HOME/.config/nvm/versions/node/v18.15.0/bin"
 export PS1="\[$(tput setaf 2)\][⚡ \w]ϕ $(tput sgr0)\]"
 export FZF_DEFAULT_COMMAND='find . -type f ! -path "*/\.git/*" ! -path "*/node_modules/*"'
 
@@ -33,4 +32,4 @@ fi
 # custom commands at start
 pfetch
 printf "\n$(sort -R ~/quotes.txt | head -n1)\n"
-(nohup autocommiter > /dev/null 2>&1 &)
+#(nohup autocommiter > /dev/null 2>&1 &)

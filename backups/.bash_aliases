@@ -16,12 +16,17 @@ alias fap="toilet 'nofap' -f smmono12.tlf";
 
 # cd command
 alias ..='cd ..'
-alias cdb='cd ~/bin'
+alias cdb='cd ~/.local/bin'
 alias cdc='cd ~/.config'
+alias cdl='cd ~/.local'
+alias cdls='cd ~/.local/src'
 alias cdcn='cd ~/.config/nvim'
 alias cdt='cd ~/tmp'
-alias cdm='cd ~/Music'
+alias cdm='cd ~/music'
 alias cdd="cd ~/Downloads"
+
+# sound controls
+alias set-volume="wpctl set-volume @DEFAULT_AUDIO_SINK@"
 
 alias emoji='emoji=$(cat ~/.config/emojis.txt | fzf | cut -f1); \
 echo $emoji | xclip -sel clip; echo $emoji;'

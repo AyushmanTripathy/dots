@@ -1,13 +1,10 @@
 .bashrc
-.git-log
 .Xresources
 playlist.txt
 agenda.txt
 quotes.txt
 todo.txt
 .bash_aliases
-.moc/themes/custom.txt
-.moc/config
 .gitconfig
 .config/nvim
 .config/htop/htoprc
