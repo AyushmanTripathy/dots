@@ -5,6 +5,7 @@ call plug#begin('~/.vim/autoload/plugged')
     Plug 'mg979/vim-visual-multi', {'branch': 'master'}
     Plug 'morhetz/gruvbox'
     Plug 'scrooloose/NERDTree', { 'on':  'NERDTreeToggle' }
+    Plug 'AyushmanTripathy/VimCompletesMe', 
     Plug 'mattn/emmet-vim'
     
   Plug 'prettier/vim-prettier', {
