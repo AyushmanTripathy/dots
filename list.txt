@@ -1,10 +1,11 @@
 .bashrc
+.bash_aliases
+.bash_profile
 .Xresources
 playlist.txt
 agenda.txt
 quotes.txt
 todo.txt
-.bash_aliases
 .gitconfig
 .config/nvim
 .config/htop/htoprc

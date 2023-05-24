@@ -26,7 +26,8 @@ alias cdm='cd ~/music'
 alias cdd="cd ~/Downloads"
 
 # sound controls
-alias set-volume="wpctl set-volume @DEFAULT_AUDIO_SINK@"
+alias reboot='echo "sure you wanna do that?" && read $NULL && reboot' 
+alias shutdown='echo "sure you wanna shutdowm?" && read $NULL && shutdowm now' 
 
 alias emoji='emoji=$(cat ~/.config/emojis.txt | fzf | cut -f1); \
 echo $emoji | xclip -sel clip; echo $emoji;'

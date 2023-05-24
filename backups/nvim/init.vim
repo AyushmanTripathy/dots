@@ -53,5 +53,4 @@ set showcmd
 set listchars=tab:▸\ ,eol:¬
 
 set t_Co=256
-set background=dark
 colorscheme gruvbox
