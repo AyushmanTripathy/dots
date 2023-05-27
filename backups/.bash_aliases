@@ -14,6 +14,8 @@ alias quote='printf "\n$(sort -R ~/quotes.txt | head -n1)\n"'
 alias cpc="echo 'chup pad chutiya'"
 alias fap="toilet 'nofap' -f smmono12.tlf";
 
+alias remove-duplicate-line="awk -i inplace \'!seen[\$0]++\'"
+
 # cd command
 alias ..='cd ..'
 alias cdb='cd ~/.local/bin'
@@ -27,7 +29,7 @@ alias cdd="cd ~/Downloads"
 
 # sound controls
 alias reboot='echo "sure you wanna do that?" && read $NULL && reboot' 
-alias shutdown='echo "sure you wanna shutdowm?" && read $NULL && shutdowm now' 
+alias shutdown='echo "sure you wanna do that?" && read $NULL && shutdown now'
 
 alias emoji='emoji=$(cat ~/.config/emojis.txt | fzf | cut -f1); \
 echo $emoji | xclip -sel clip; echo $emoji;'

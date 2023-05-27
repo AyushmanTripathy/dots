@@ -4,6 +4,9 @@
 [x] using usbs
 [x] fix Dunst
 
+
+[ ] fix screen tearing
+
 Remember 4th may 2023
 username : phi
 

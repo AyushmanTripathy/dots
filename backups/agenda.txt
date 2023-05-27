@@ -1,3 +1,8 @@
+PROJECTS
+--------
+[ ] complete pips
+
+
 1ST SEM
 -------
 [ ] coding contest ranks

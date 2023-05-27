@@ -144,3 +144,13 @@ happier.mp3 happy.txt english https://youtu.be/m7Bc3pLyij0
 doo_doo_in_my_butt.mp3 weird.txt english https://youtu.be/OMmgAS5dmhA
 goodbye_moonmen.mp3 weird.txt english https://youtu.be/TgqiSBxvdws
 time_for_africa.mp3 high.txt english https://youtu.be/Ntn1-SocNiY
+
+
+NEW
+
+
+marry_you.mp3 chill.txt english https://youtu.be/dElRVQFqj-k
+hey_there_deliah.mp3 chill.txt english https://youtu.be/h_m-BjrxmgI
+comethru.mp3 chill.txt english https://youtu.be/jO2viLEW-1A
+rythem_of_love.mp3 chill.txt english https://youtu.be/JWiwuiT58Yc
+dont_look_back.mp3 chill.txt english https://youtu.be/1l3iLpOiSHQ
