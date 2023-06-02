@@ -2,7 +2,7 @@ set updatetime=800
 
 vnoremap <silent><Leader>y "yy <Bar> :call system('xclip', @y)<CR>
 autocmd BufNewFile,BufRead *.svelte set syntax=html
-autocmd BufNewFile,BufRead *.pipescript set syntax=rust
+autocmd BufNewFile,BufRead *.pipescript set syntax=python
 
 " Omin functions
 autocmd FileType svelte set omnifunc=csscomplete#CompleteCSS
