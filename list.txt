@@ -1,3 +1,4 @@
+.xinitrc
 .bashrc
 .bash_aliases
 .bash_profile
@@ -8,7 +9,7 @@ quotes.txt
 todo.txt
 .gitconfig
 .config/nvim
-.config/htop/htoprc
 .config/kitty
 .config/emojis.txt
 .config/postroom.json
+.config/dunst
