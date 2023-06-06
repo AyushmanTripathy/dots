@@ -32,7 +32,7 @@ fi
 # custom commands at start
 pfetch
 printf "\n$(sort -R ~/quotes.txt | head -n1)\n"
-#(nohup autocommiter > /dev/null 2>&1 &)
+(nohup autocommiter > /dev/null 2>&1 &)
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm

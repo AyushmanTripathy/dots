@@ -30,6 +30,7 @@ alias cdd="cd ~/Downloads"
 # sound controls
 alias reboot='echo "sure you wanna do that?" && read $NULL && reboot' 
 alias shutdown='echo "sure you wanna do that?" && read $NULL && shutdown now'
+alias poweroff='echo "sure you wanna do that?" && read $NULL && systemctl poweroff'
 
 alias emoji='emoji=$(cat ~/.config/emojis.txt | fzf | cut -f1); \
 echo $emoji | xclip -sel clip; echo $emoji;'

@@ -30,7 +30,7 @@ backup(){
   cat $LOCATION/list.txt | while read line 
   do
     echo "backing up $line"
-    rm -rf "backups/$(basename $line)"
+    rm -r "backups/$(basename $line)"
     cp -r "$HOME/$line" "backups/$(basename $line)" || error "cannot copy $line"
   done
 
@@ -38,6 +38,9 @@ backup(){
 }
 
 retrive(){
+  echo "are you sure you wanna do that?"
+  read null
+
   cd $LOCATION
   ls backups || error 'backups dir not found'
 
@@ -45,6 +48,7 @@ retrive(){
   cat $LOCATION/list.txt | while read line 
   do
     echo "retriving $line"
+    rm -r "$HOME/$line"
     cp -r "backups/$(basename $line)" "$HOME/$line" || echo "cannot copy $line"
   done
 }
