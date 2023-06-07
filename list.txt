@@ -3,13 +3,11 @@
 .bash_aliases
 .bash_profile
 .Xresources
-playlist.txt
-agenda.txt
 quotes.txt
-todo.txt
 .gitconfig
 .config/nvim
 .config/kitty
 .config/emojis.txt
 .config/postroom.json
 .config/dunst
+.config/picom

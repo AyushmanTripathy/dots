@@ -33,5 +33,4 @@ fi
 xwallpaper --zoom $HOME/pics/wallpaper.png &
 picom &
 dwmblocks &
-sleep 1
 exec dwm

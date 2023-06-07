@@ -1,0 +1,5 @@
+agenda.txt
+todo.txt
+playlist.txt
+ssh_device_list.txt
+wifi_passwords.txt
