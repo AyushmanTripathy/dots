@@ -10,7 +10,7 @@ push_to_git(){
   git commit -m "backup $(date)"
   git push -u origin master
 
-  cd $HOME/bin
+  cd $HOME/.local/bin
   update-remote
   git add .
   git commit -m "backup $(date)"
@@ -24,7 +24,6 @@ error(){
 
 backup(){
   cd $LOCATION
-
   ls backups || mkdir backups
   # copying files
   cat $LOCATION/list.txt | while read line 

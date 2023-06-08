@@ -1,10 +1,11 @@
-.xinitrc
 .bashrc
 .bash_aliases
 .bash_profile
-.Xresources
 quotes.txt
-.gitconfig
+.config/npmrc
+.config/X11
+.config/moc
+.config/git
 .config/nvim
 .config/kitty
 .config/emojis.txt

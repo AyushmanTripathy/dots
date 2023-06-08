@@ -11,10 +11,8 @@ alias live-server='live-server --no-browser'
 alias nodemon='nodemon -I'
 alias quote='printf "\n$(sort -R ~/quotes.txt | head -n1)\n"'
 
-alias cpc="echo 'chup pad chutiya'"
-alias fap="toilet 'nofap' -f smmono12.tlf";
-
-alias remove-duplicate-line="awk -i inplace \'!seen[\$0]++\'"
+alias mocp="mocp -M $XDG_CONFIG_HOME/moc"
+alias startx="startx $XDG_CONFIG_HOME/X11/xinitrc"
 
 # cd command
 alias ..='cd ..'
