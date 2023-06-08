@@ -1,13 +1,19 @@
 # My Dotfiles
 
-my dearest dot files.  
+my dearest dot files.
 
-| Position          | My Choice |
-| ----------------- | --------- |
-| Editor            | Neovim    |
-| Plugin Manager    | vim-plug  |
-| Terminal Emulator | kitty     |
-| Shell             | bash      |
+| Position          | My Choice              |
+| ----------------- | ---------------------- |
+| Editor            | Neovim                 |
+| Plugin Manager    | vim-plug               |
+| Terminal Emulator | st, kitty              |
+| Shell             | bash                   |
+| Window Manager    | dwm (dwmblocks, dmenu) |
+| Media Player      | mpv, moc               |
+| Window System     | X                      |
+| Notifications     | dunst                  |
+| Compositor        | picom                  |
+| Multimedia        | pipewire               |
 
 to replicate use the dots script
 
