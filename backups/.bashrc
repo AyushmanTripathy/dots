@@ -5,7 +5,7 @@ export FZF_DEFAULT_COMMAND='find . -type f ! -path "*/\.git/*" ! -path "*/node_m
 
 # Pfetch Config
 export PF_INFO="ascii title os host uptime pkgs memory shell"
-export PF_ASCII="KISS"
+export PF_ASCII="kiss"
 
 if [ $(command -v rlwrap) ]; then
   alias node='NODE_NO_READLINE=1 rlwrap node'

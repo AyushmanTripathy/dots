@@ -12,3 +12,5 @@ quotes.txt
 .config/postroom.json
 .config/dunst
 .config/picom
+.local/src/dwmblocks/blocks.def.h
+.local/src/slock/config.def.h
