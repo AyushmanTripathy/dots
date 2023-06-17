@@ -14,6 +14,7 @@ my dearest dot files.
 | Notifications     | dunst                  |
 | Compositor        | picom                  |
 | Multimedia        | pipewire               |
+| Lockscreen        | slock                  |
 
 to replicate use the dots script
 
