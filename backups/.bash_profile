@@ -3,6 +3,7 @@
 #
 
 export EDITOR="nvim"
+export BROWSER="google-chrome-stable"
 export GITHUB_USERNAME="AyushmanTripathy"
 export MUSICDB="$HOME/music"
 
@@ -17,11 +18,12 @@ export LESSHISTFILE=-
 export HISTFILE="$XDG_DATA_HOME/.bash_history"
 export NODE_REPL_HISTORY="$XDG_DATA_HOME/node_repl_history"
 
-export NVM_DIR="$XDG_DATA_HOME/.nvm"
+export NVM_DIR="$XDG_DATA_HOME/nvm"
 export NPM_CONFIG_USERCONFIG="$XDG_CONFIG_HOME/npmrc"
 
 export XINITRC="$XDG_CONFIG_HOME/X11/xinitrc"
 export XAUTHORITY="$XDG_CONFIG_HOME/X11/xauthority"
 
-export PATH="$PATH:$HOME/.local/bin:$HOME/.config/nvm/versions/node/v18.15.0/bin"
+export PATH="$PATH:$HOME/.local/bin:$XDG_DATA_HOME/npm/bin/"
+
 [[ -f ~/.bashrc ]] && . ~/.bashrc

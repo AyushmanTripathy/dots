@@ -14,6 +14,7 @@ alias quote='printf "\n$(sort -R ~/quotes.txt | head -n1)\n"'
 alias edex="$HOME/.local/share/edex/AppRun"
 alias mocp="mocp -M $XDG_CONFIG_HOME/moc"
 alias startx="startx $XDG_CONFIG_HOME/X11/xinitrc"
+alias rename-seq='ls -v | cat -n | while read n f; do mv -n "$f" "$n"; done'
 
 # cd command
 alias ..='cd ..'
