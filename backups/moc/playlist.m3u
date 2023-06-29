@@ -1,5 +1,5 @@
 #EXTM3U
-#MOCSERIAL: 0
+#MOCSERIAL: 256
 #EXTINF:230,/home/ayush/music/english/apple_bottom_jeans.mp3
 /home/ayush/music/english/apple_bottom_jeans.mp3
 #EXTINF:182,/home/ayush/music/english/at_my_worst.mp3
@@ -156,6 +156,8 @@
 /home/ayush/music/hindi/liggi.mp3
 #EXTINF:164,/home/ayush/music/hindi/luv_ju.mp3
 /home/ayush/music/hindi/luv_ju.mp3
+#EXTINF:274,/home/ayush/music/hindi/maine_payal_hai_chanakai.mp3
+/home/ayush/music/hindi/maine_payal_hai_chanakai.mp3
 #EXTINF:332,/home/ayush/music/hindi/main_koi_aisa_geet_gaon.mp3
 /home/ayush/music/hindi/main_koi_aisa_geet_gaon.mp3
 #EXTINF:270,/home/ayush/music/hindi/main_rangsarbato_ka.mp3
@@ -166,6 +168,8 @@
 /home/ayush/music/hindi/makhna.mp3
 #EXTINF:189,/home/ayush/music/hindi/mann_mera.mp3
 /home/ayush/music/hindi/mann_mera.mp3
+#EXTINF:303,/home/ayush/music/hindi/meri_chunar_udd_udd_jaye.mp3
+/home/ayush/music/hindi/meri_chunar_udd_udd_jaye.mp3
 #EXTINF:165,/home/ayush/music/hindi/nachan_nu_jee.mp3
 /home/ayush/music/hindi/nachan_nu_jee.mp3
 #EXTINF:218,/home/ayush/music/hindi/naina_da_kya_kasoor.mp3

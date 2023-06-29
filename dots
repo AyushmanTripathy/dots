@@ -18,7 +18,7 @@ push_to_git(){
 }
 
 error(){
-  echo $1
+  echo "[ERROR] $1"
   exit
 }
 
@@ -56,19 +56,48 @@ retrive(){
   ls backups || error 'backups dir not found'
 
   # copying files
+  printf "\nretriving files...\n"
   cat $LOCATION/list.txt | while read line 
   do
     echo "retriving $line"
-    rm -r "$HOME/$line"
+    rm -rf "$HOME/$line"
     cp -r "backups/$(basename $line)" "$HOME/$line" || echo "cannot copy $line"
   done
 }
 
-while getopts "r b a:" opt
+retrive_private() {
+  echo "are you sure you wanna do that?"
+  read null
+
+  cd $LOCATION
+  ls backups || error 'backups dir not found'
+
+  cat backups/secrets.tar.asc >> /dev/null || error 'secrets.tar.asc not found'
+  gpg -d backups/secrets.tar.asc >> private.tar || error 'failed to decrypt'
+  echo "Decryption Complete"
+
+  tar xvf private.tar
+  rm private.tar
+
+  # copying files
+  mkdir -p $HOME/private
+  printf "\nretriving files...\n"
+  cat $LOCATION/private.txt | while read line 
+  do
+    echo "retriving $line"
+    rm -rf "$HOME/$line"
+    cp -r "private/$(basename $line)" "$HOME/$line" || echo "cannot copy $line"
+  done
+
+  rm -r private
+}
+
+while getopts "r b a: p" opt
 do
   case "${opt}" in
     r) retrive;;
     b) backup;;
+    p) retrive_private;;
     a) echo ${OPTARG} >> $LOCATION/list.txt;;
     esac
 done

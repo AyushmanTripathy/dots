@@ -19,13 +19,13 @@ alias rename-seq='ls -v | cat -n | while read n f; do mv -n "$f" "$n"; done'
 # cd command
 alias ..='cd ..'
 alias cdb='cd ~/.local/bin'
-alias cdc='cd ~/.config'
 alias cdl='cd ~/.local'
 alias cdls='cd ~/.local/src'
-alias cdcn='cd ~/.config/nvim'
+alias cdc="cd $XDG_CONFIG_HOME"
+alias cdcn="cd $XDG_CONFIG_HOME/nvim"
 alias cdt='cd ~/tmp'
 alias cdm='cd ~/music'
-alias cdd="cd ~/Downloads"
+alias cdd="cd ~/dl"
 
 alias reboot='echo "sure you wanna do that?" && read $NULL && reboot' 
 alias shutdown='echo "sure you wanna do that?" && read $NULL && shutdown now'
