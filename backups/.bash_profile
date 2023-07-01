@@ -3,7 +3,7 @@
 #
 
 export EDITOR="nvim"
-export BROWSER="google-chrome-stable"
+export BROWSER="chromium"
 export GITHUB_USERNAME="AyushmanTripathy"
 export MUSICDB="$HOME/music"
 

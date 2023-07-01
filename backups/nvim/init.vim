@@ -56,3 +56,6 @@ set t_Co=256
 colorscheme gruvbox
 autocmd BufRead,BufNewFile *.pipescript
       \ source $HOME/.config/nvim/pipescript.vim
+
+" transparents
+hi Normal guibg=NONE ctermbg=NONE
