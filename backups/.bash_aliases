@@ -10,6 +10,7 @@ alias live-server='live-server --no-browser'
 alias nodemon='nodemon -I'
 alias quote='printf "\n$(sort -R ~/quotes.txt | head -n1)\n"'
 
+alias usb="sudo -E usb"
 alias hist="history | tac | dmenu -l 20 | cut -b 8- | xclip -sel c"
 alias edex="$HOME/.local/share/edex/AppRun"
 alias mocp="mocp -M $XDG_CONFIG_HOME/moc"

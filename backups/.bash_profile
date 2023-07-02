@@ -4,6 +4,7 @@
 
 export EDITOR="nvim"
 export BROWSER="chromium"
+export USERNAME="ayush"
 export GITHUB_USERNAME="AyushmanTripathy"
 export MUSICDB="$HOME/music"
 
