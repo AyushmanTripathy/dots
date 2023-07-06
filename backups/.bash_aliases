@@ -20,15 +20,15 @@ alias rename-seq='ls -v | cat -n | while read n f; do mv -n "$f" "$n"; done'
 # cd command
 alias ..='cd ..'
 alias cdb='cd ~/.local/bin'
-alias cdp='cd ~/pics/'
 alias cdl='cd ~/.local'
 alias cdls='cd ~/.local/src'
 alias cdld="cd $XDG_DATA_HOME"
 alias cdc="cd $XDG_CONFIG_HOME"
 alias cdcn="cd $XDG_CONFIG_HOME/nvim"
 alias cdt='cd ~/tmp'
-alias cdm='cd ~/music'
-alias cdd="cd ~/dl"
+alias cdm="cd $CHROMEOS_HOME/music"
+alias cdh="cd $CHROMEOS_HOME"
+alias cdd="cd $CHROMEOS_HOME/Downloads"
 
 alias reboot='echo "sure you wanna do that?" && read $NULL && reboot' 
 alias shutdown='echo "sure you wanna do that?" && read $NULL && shutdown now'

@@ -1,5 +1,8 @@
 set -o vi
 
+# for kitty
+[ ! -z "$KITTY_WINDOW_ID" ] && source ~/.bash_profile
+
 export PS1="\[$(tput setaf 2)\][⚡ \w]ϕ $(tput sgr0)\]"
 export FZF_DEFAULT_COMMAND='find . -type f ! -path "*/\.git/*" ! -path "*/node_modules/*"'
 
