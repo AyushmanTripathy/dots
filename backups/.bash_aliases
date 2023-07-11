@@ -29,6 +29,7 @@ alias cdt='cd ~/tmp'
 alias cdm="cd $CHROMEOS_HOME/music"
 alias cdh="cd $CHROMEOS_HOME"
 alias cdd="cd $CHROMEOS_HOME/Downloads"
+alias cdr="cd $CHROMEOS_HOME/../removable/"
 
 alias reboot='echo "sure you wanna do that?" && read $NULL && reboot' 
 alias shutdown='echo "sure you wanna do that?" && read $NULL && shutdown now'
