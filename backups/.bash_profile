@@ -3,11 +3,10 @@
 #
 
 export EDITOR="nvim"
-export BROWSER="xdg-open"
-export USERNAME="ayushmantripathy2004"
+export BROWSER="chromium"
+export USERNAME="ayush"
 export GITHUB_USERNAME="AyushmanTripathy"
-export CHROMEOS_HOME="/mnt/chromeos/MyFiles"
-export MUSICDB="$CHROMEOS_HOME/music"
+export MUSICDB="$HOME/music"
 
 export XDG_CONFIG_HOME="$HOME/.config"
 export XDG_CACHE_HOME="$HOME/.local/cache"

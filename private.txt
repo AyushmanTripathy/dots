@@ -1,5 +1,6 @@
 agenda.txt
 todo.txt
 playlist.txt
+private/ssh_device_list.txt
+private/wifi_passwords.txt
 private/.pat
-private/be_in_contact_list.txt

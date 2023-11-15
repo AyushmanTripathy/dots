@@ -10,7 +10,6 @@ alias live-server='live-server --no-browser'
 alias nodemon='nodemon -I'
 alias quote='printf "\n$(sort -R ~/quotes.txt | head -n1)\n"'
 
-alias usb="sudo -E usb"
 alias hist="history | tac | dmenu -l 20 | cut -b 8- | xclip -sel c"
 alias edex="$HOME/.local/share/edex/AppRun"
 alias mocp="mocp -M $XDG_CONFIG_HOME/moc"
@@ -26,10 +25,9 @@ alias cdld="cd $XDG_DATA_HOME"
 alias cdc="cd $XDG_CONFIG_HOME"
 alias cdcn="cd $XDG_CONFIG_HOME/nvim"
 alias cdt='cd ~/tmp'
-alias cdm="cd $CHROMEOS_HOME/music"
-alias cdh="cd $CHROMEOS_HOME"
-alias cdd="cd $CHROMEOS_HOME/Downloads"
-alias cdr="cd $CHROMEOS_HOME/../removable/"
+alias cdm="cd $HOME/music"
+alias cdh="cd $HOME"
+alias cdd="cd $HOME/dl"
 
 alias reboot='echo "sure you wanna do that?" && read $NULL && reboot' 
 alias shutdown='echo "sure you wanna do that?" && read $NULL && shutdown now'
@@ -37,4 +35,6 @@ alias poweroff='echo "sure you wanna do that?" && read $NULL && systemctl powero
 
 alias emoji='emoji=$(cat $XDG_DATA_HOME/emojis.txt | dmenu -p "Choose Emoji: " -l 10\
 | cut -f1); echo $emoji | xclip -sel clip; echo $emoji;'
+
+alias rm-swp="rm $HOME/.local/state/nvim/swap/*"
 alias rm-tmp="rm -rf $HOME/tmp; mkdir $HOME/tmp"

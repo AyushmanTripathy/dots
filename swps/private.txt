@@ -1,0 +1,5 @@
+agenda.txt
+todo.txt
+playlist.txt
+private/.pat
+private/be_in_contact_list.txt
