@@ -13,6 +13,7 @@ alias quote='printf "\n$(sort -R ~/quotes.txt | head -n1)\n"'
 alias hist="history | tac | dmenu -l 20 | cut -b 8- | xclip -sel c"
 alias edex="$HOME/.local/share/edex/AppRun"
 alias mocp="mocp -M $XDG_CONFIG_HOME/moc"
+alias clang-format="clang-format -i --style=Google"
 alias startx="startx $XDG_CONFIG_HOME/X11/xinitrc"
 alias rename-seq='ls -v | cat -n | while read n f; do mv -n "$f" "$n"; done'
 
@@ -32,9 +33,5 @@ alias cdd="cd $HOME/dl"
 alias reboot='echo "sure you wanna do that?" && read $NULL && reboot' 
 alias shutdown='echo "sure you wanna do that?" && read $NULL && shutdown now'
 alias poweroff='echo "sure you wanna do that?" && read $NULL && systemctl poweroff'
-
-alias emoji='emoji=$(cat $XDG_DATA_HOME/emojis.txt | dmenu -p "Choose Emoji: " -l 10\
-| cut -f1); echo $emoji | xclip -sel clip; echo $emoji;'
-
 alias rm-swp="rm $HOME/.local/state/nvim/swap/*"
 alias rm-tmp="rm -rf $HOME/tmp; mkdir $HOME/tmp"
