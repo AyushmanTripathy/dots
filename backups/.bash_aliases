@@ -27,7 +27,8 @@ alias cdc="cd $XDG_CONFIG_HOME"
 alias cdcn="cd $XDG_CONFIG_HOME/nvim"
 alias cdt='cd ~/tmp'
 alias cdm="cd $HOME/music"
-alias cdh="cd $HOME"
+alias cdn="cd $HOME/notes"
+alias cdnd="cd $HOME/notes/dsa"
 alias cdd="cd $HOME/dl"
 
 alias reboot='echo "sure you wanna do that?" && read $NULL && reboot' 
