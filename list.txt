@@ -3,6 +3,7 @@
 .bash_profile
 quotes.txt
 .config/npmrc
+.config/alacritty.toml
 .config/X11
 .config/moc
 .config/git
