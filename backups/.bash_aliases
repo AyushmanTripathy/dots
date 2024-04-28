@@ -7,8 +7,8 @@ alias src='source ~/.bashrc'
 alias mysql='mysql -u root -p'
 alias xclip="xclip -sel clip"
 alias live-server='live-server --no-browser'
-alias nodemon='nodemon -I'
 alias quote='printf "\n$(sort -R ~/quotes.txt | head -n1)\n"'
+alias nodemon='nodemon -I'
 
 alias hist="history | tac | dmenu -l 20 | cut -b 8- | xclip -sel c"
 alias edex="$HOME/.local/share/edex/AppRun"

@@ -29,3 +29,5 @@ export PATH="$PATH:$HOME/.local/bin:$XDG_DATA_HOME/npm/bin/"
 
 # for kitty
 [ -z "$KITTY_WINDOW_ID" ] && [[ -f ~/.bashrc ]] && . ~/.bashrc
+
+startx $XDG_CONFIG_HOME/X11/xinitrc

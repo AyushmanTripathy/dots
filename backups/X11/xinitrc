@@ -34,3 +34,5 @@ xwallpaper --zoom $HOME/pics/wallpapers/garden.jpg &
 picom &
 dwmblocks &
 exec dwm
+
+chromium --profile-directory="Profile 2" &

@@ -30,7 +30,6 @@ fi
 
 # custom commands at start
 pfetch
-printf "\n$(sort -R ~/quotes.txt | head -n1)\n"
+cat quotes.txt | shuf -o quotes.txt && head -1 quotes.txt
 
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-
