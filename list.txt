@@ -15,3 +15,4 @@ quotes.txt
 .local/src/dwmblocks/blocks.def.h
 .local/src/slock/config.def.h
 .local/share/emojis.txt
+.local/share/help

@@ -1,0 +1,56 @@
+KeyChords
+=========
+
+1. General (MOD + \)
+
+h | help
+w | wifi
+b | bluetooth
+e | emojis
+s | screenshot
+c | save clipboard
+v | retrieve from saved clipboard
+
+2. Layout (MOD + l)
+
+m | monocycle
+t | tiling
+f | change window from floating
+x | floating
+h | horizontal tiling
+v | default stack layout
+
+KeyBindings
+===========
+
+g             | toggle top bar
+q             | kill client
+=             | increase tiling gap
+Shift+=       | get tiling gap to 0
+-             | decrease tiling gap
+0             | combining all tags
+9             | seperate tags
+Space         | dmenu
+Right         | move to right window
+Left          | move to left window
+Shift+Right   | resize to right
+Shift+Left    | resize to left
+Return        | shell
+Shift+Return  | open browser in default
+Ctrl+Return   | open browser in Profile 2 
+
+Function Keys
+=============
+
+F1  | get-info
+F2  | decrease brightness
+F3  | increase brightness
+F4  | full screenshot
+F5  | 
+F6  | mute volume
+F7  | decrease volume
+F8  | increase volume
+F9  | next song on moc
+F10 | pause song on moc
+F11 |
+F12 | lock screen
