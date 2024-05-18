@@ -18,8 +18,9 @@ push_to_git(){
 }
 
 error(){
-  echo "[ERROR] $1"
-  exit
+  printf "\e[31m[ERROR]\e[0m $1\n"
+  printf "continue? "
+  read null
 }
 
 backup(){
@@ -40,11 +41,12 @@ backup(){
     cp -r "$HOME/$line" "private/$(basename $line)" || error "cannot copy $line"
   done
 
-  tar -czvf secrets.tar private
+  tar -czf secrets.tar private || error "tar failed"
   rm -r private
   gpg --encrypt --sign --armour -r ayushmantripathy2004@gmail.com secrets.tar
   rm secrets.tar
   mv secrets.tar.asc backups/
+
   push_to_git
 }
 
