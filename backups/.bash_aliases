@@ -1,6 +1,8 @@
 # ALIAS
 alias vim='nvim'
 alias du='du -h'
+alias df='df -h'
+alias progress='progress -m'
 alias lsc='ls -1 | wc -l'
 alias scss='scss --no-cache'
 alias src='source ~/.bashrc'

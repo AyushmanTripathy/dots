@@ -11,6 +11,7 @@ autocmd FileType svelte set omnifunc=csscomplete#CompleteCSS
 nnoremap / /
 vnoremap / /
 
+set textwidth=0
 set nohlsearch
 set incsearch
 set ignorecase

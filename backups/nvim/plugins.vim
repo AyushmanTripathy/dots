@@ -1,4 +1,5 @@
 call plug#begin('~/.vim/autoload/plugged')
+    Plug 'maxmellon/vim-jsx-pretty'
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
     Plug 'junegunn/rainbow_parentheses.vim',  
     Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }     
@@ -32,4 +33,4 @@ let g:coc_start_at_startup=0
 " Emmet
 let g:user_emmet_install_global = 0
 let g:user_emmet_leader_key=','
-autocmd FileType md,html,css,scss,svelte EmmetInstall
+autocmd FileType js,md,html,css,scss,svelte EmmetInstall

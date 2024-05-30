@@ -19,8 +19,6 @@ push_to_git(){
 
 error(){
   printf "\e[31m[ERROR]\e[0m $1\n"
-  printf "continue? "
-  read null
 }
 
 backup(){

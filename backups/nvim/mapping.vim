@@ -69,3 +69,29 @@ call MapBoth('<leader>9','()<Left>')
 noremap <leader>' "
 inoremap <leader>' "
 cnoremap <leader>' "
+
+" Modify the up/down keys so that they move per virtual (rather than
+" physical) line if a line is displayed wrapped and no count for the
+" command has been specified. Always use logical line steps for quickfix
+
+nnoremap <expr> k ((v:count) ? 'k' : ((&buftype == 'quickfix') ? 'k' : 'gk'))
+nnoremap <expr> j ((v:count) ? 'j' : ((&buftype == 'quickfix') ? 'j' : 'gj'))
+nnoremap <expr> <Up> ((v:count) ? 'k' : ((&buftype == 'quickfix') ? 'k' : 'gk'))
+nnoremap <expr> <Down> ((v:count) ? 'j' : ((&buftype == 'quickfix') ? 'j' : 'gj'))
+xnoremap k gk
+xnoremap j gj
+vnoremap <Up> gk
+vnoremap <Down> gj
+
+" Move to start and end of virtual line (this will default to normal behaviour
+" if the line isn't wrapped)
+nnoremap 0 g0
+nnoremap <Home> g0
+nnoremap ^ g^
+nnoremap $ g$
+nnoremap <End> g$
+
+" These mappings need to deal with virtual line numbers in 'insert' mode,
+" but they need to do it without messing up normal 'completion menu' operation
+inoremap <expr> <Up> pumvisible() ? "\<Up>" : "\<C-o>gk"
+inoremap <expr> <Down> pumvisible() ? "\<Down>" : "\<C-o>gj"
