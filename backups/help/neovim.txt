@@ -1,0 +1,20 @@
+PLUGINS
+surround selected text  | visual select then s<tagname>
+replace surrounding tag | cst<tagname>
+
+CORE
+recording | q<register> to start, q to stop, @<register> to play
+increment | Ctrl+a
+decrement | Ctrl+x
+
+SELF
+Tab + [   | goto previous opened file
+Tab + ]   | reverse of previous opened file
+Tab + n   | toggle nerdtree
+Tab + r   | reload configs
+Tab + p   | Prettier
+Tab + i   | remove indentation
+Tab + c   | copy whole file
+Tab + s   | vertical split
+Tab + f   | open fuzzyfinder
+Tab + h   | toggle search highlighting 

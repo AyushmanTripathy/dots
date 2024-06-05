@@ -8,14 +8,15 @@ call plug#begin('~/.vim/autoload/plugged')
     Plug 'scrooloose/NERDTree', { 'on':  'NERDTreeToggle' }
     Plug 'AyushmanTripathy/VimCompletesMe', 
     Plug 'mattn/emmet-vim',
-    
-  Plug 'prettier/vim-prettier', {
-    \ 'do': 'npm install',
-    \ 'for': ['javascript','sql' ,'css','scss', 'json', 'svelte', 'markdown', 'html', 'c'] }
-
+    Plug 'prettier/vim-prettier', { 'do': 'npm install' },
+    Plug 'tpope/vim-surround',
+    Plug 'dense-analysis/ale'
 call plug#end()
 
 let g:v_warnings=1
+
+" surround
+vmap s S
 
 " Rainbow Parentasis
 let g:rainbow#max_level = 16
@@ -39,8 +40,18 @@ let g:user_emmet_settings = {
 
 let g:user_emmet_install_global = 0
 let g:user_emmet_leader_key=','
-autocmd FileType javascript,md,html,css,scss,svelte EmmetInstall
+autocmd FileType javascript,markdown,html,css,scss,svelte EmmetInstall
 
 " You Complete Me
 let g:ycm_autoclose_preview_window_after_insertion = 1
 let g:ycm_add_preview_to_completeopt = 0
+
+" ALE
+let g:ale_completion_enabled = 1
+let g:ale_completion_autoimport = 1
+let g:ale_floating_preview = 1
+let g:ale_enabled= 0
+
+let g:ale_linters={
+\ 'python': ['pylsp', 'pylint'],
+\}

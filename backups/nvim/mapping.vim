@@ -22,6 +22,9 @@ nnoremap <Tab><down>  <C-W>j
 nnoremap <Tab><up>  <C-W>k
 nnoremap <Tab><right>  <C-W>l
 
+nnoremap <Tab>[ :bprev<cr>
+nnoremap <Tab>] :bnext<cr>
+
 " VISUAL MODE
 
 " copying & pasting 
@@ -34,7 +37,6 @@ inoremap <leader><leader> <C-x><C-o>
 inoremap <leader><cr> <C-o>o
 inoremap <leader>o <C-x><C-o>
 inoremap <leader>f <C-x><C-f>
-
 
 function! MapBoth(keys, rhs)
     execute 'noremap' a:keys a:rhs
@@ -91,7 +93,8 @@ nnoremap ^ g^
 nnoremap $ g$
 nnoremap <End> g$
 
+" had problem with ale
 " These mappings need to deal with virtual line numbers in 'insert' mode,
 " but they need to do it without messing up normal 'completion menu' operation
-inoremap <expr> <Up> pumvisible() ? "\<Up>" : "\<C-o>gk"
-inoremap <expr> <Down> pumvisible() ? "\<Down>" : "\<C-o>gj"
+" inoremap <expr> <Up> pumvisible() ? "\<Up>" : "\<C-o>gk"
+" inoremap <expr> <Down> pumvisible() ? "\<Down>" : "\<C-o>gj"
