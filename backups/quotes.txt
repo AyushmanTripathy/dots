@@ -1,38 +1,38 @@
-[Watson]  “The problems of your past are your business, The problems of your future are my previlage.”
-[Elliot]  “I’m good at reading people. My secret, I look for the worst in them.” 
-[Elliot]  “Power belongs to the people that take it. Nothing to do with their hard work, strong ambitions, or rightful qualifications, no. The actual will to take is often the only thing that’s necessary.” 
-[Barney] "The only time you should wait a month to have sex with a girl is if shes 17 years 11 months old."
-[Elliot]  “When you see a good move, look for a better one.” 
-[Harvey]  “So I'd say the ball's in your court, but the truth is your balls are in my fist.”
-[Mr.Robot]  “The world is a dangerous place, Elliott, not because of those who do evil, but because of those who look on and do nothing.” 
-[Barney] "When i let a day go by without talking to you, that day is just no good."
-[Elliot]  “They will die in debt for things they didn’t want to do.” 
-"Fuck it, We Ball!"
-[Sherlock]  “The East Wind Takes Us All in the End.”
-[Elliot]  “It’s good. So good, it scratched that part of my mind. The part that doesn’t allow good to exist without a condition.” 
-[Elliot]  “Maybe wars aren’t meant to be won, maybe they’re meant to be continuous.” 
-[Harvey]  “I don’t get lucky. i make my own luck.”
-[Barney] "It's not legendary, unless your friends are there to see it."
-[Sherlock]  “Sentiment is a chemical defect found on the losing side.”
-[Harvey]  “The only thing you need is an unshakeable belief in yourself.”
-[Elliot]  “Control can sometimes be an illusion. But sometimes you need illusion to gain control.” 
-[Barney] "A lie is just a great story that someone ruined with the truth."
-[Sherlock]  “I always know when the game is on; because i love it.”
-[Someone]   for windows problem reboot, for linux problems be root
-[Harvey]  “I don’t play the odds. I play the man.”
 [Michael]  “That’s what she said.”
+[Barney] "The only time you should wait a month to have sex with a girl is if shes 17 years 11 months old."
 [Elliot]  “I never want to be right about my hacks, but people always find a way to disappoint.” 
-[Irving]  “When we lose our principles, we invite chaos.” 
-[Elliot]  “I’ve never found it hard to hack most people. If you listen to them, watch them, their vulnerabilities are like a neon sign.” 
-[Elliot]  “Sure, there are grays… But when you come right down to it, at its core, beneath every choice, there’s either a one or a zero. You either do something or you don’t.” 
 [Barney] "I'm surrounded by idiots... IDIOTS."
-[Elliot]  “You walk out that door, you’ve decided to do nothing, to say no, which means you do not come back. You leave, you are no longer a part of this. You become a zero. If you stay, if you want to change the world, you become a yes. You become a one.” 
-[Sherlock]  “I’m not a psychopath, Anderson. I’m a high-functioning sociopath. Do your research.”
 [Sherlock]  “The Game Is On!”
-[Sherlock]  “Anderson, don’t talk out loud. You lower the IQ of the whole street.”
-[Elliot]  “We’re all living in each other’s paranoia.” 
-[Whiterose]  “Don’t mistake my generosity for generosity.” 
-[Sherlock]  “My name is Sherlock Holmes. It is my business to know what other people don’t know.”
+[Elliot]  “I’m good at reading people. My secret, I look for the worst in them.” 
 [Michael]  “Well, well, well, how the turntables.”
-[Harvey]  “Ever loved someone so much, you would do anything for them? Yeah, well make that someone yourself and do whatever you want.”
+[Sherlock]  “The East Wind Takes Us All in the End.”
 [Harvey]  “When you’re backed against the wall, break the goddamn thing down.”
+[Sherlock]  “My name is Sherlock Holmes. It is my business to know what other people don’t know.”
+[Elliot]  “Maybe wars aren’t meant to be won, maybe they’re meant to be continuous.” 
+[Barney] "It's not legendary, unless your friends are there to see it."
+[Harvey]  “The only thing you need is an unshakeable belief in yourself.”
+[Whiterose]  “Don’t mistake my generosity for generosity.” 
+"Fuck it, We Ball!"
+[Harvey]  “Ever loved someone so much, you would do anything for them? Yeah, well make that someone yourself and do whatever you want.”
+[Irving]  “When we lose our principles, we invite chaos.” 
+[Elliot]  “Sure, there are grays… But when you come right down to it, at its core, beneath every choice, there’s either a one or a zero. You either do something or you don’t.” 
+[Sherlock]  “I’m not a psychopath, Anderson. I’m a high-functioning sociopath. Do your research.”
+[Sherlock]  “Sentiment is a chemical defect found on the losing side.”
+[Elliot]  “It’s good. So good, it scratched that part of my mind. The part that doesn’t allow good to exist without a condition.” 
+[Harvey]  “So I'd say the ball's in your court, but the truth is your balls are in my fist.”
+[Elliot]  “You walk out that door, you’ve decided to do nothing, to say no, which means you do not come back. You leave, you are no longer a part of this. You become a zero. If you stay, if you want to change the world, you become a yes. You become a one.” 
+[Elliot]  “I’ve never found it hard to hack most people. If you listen to them, watch them, their vulnerabilities are like a neon sign.” 
+[Barney] "A lie is just a great story that someone ruined with the truth."
+[Elliot]  “We’re all living in each other’s paranoia.” 
+[Harvey]  “I don’t get lucky. i make my own luck.”
+[Barney] "When i let a day go by without talking to you, that day is just no good."
+[Mr.Robot]  “The world is a dangerous place, Elliott, not because of those who do evil, but because of those who look on and do nothing.” 
+[Elliot]  “Control can sometimes be an illusion. But sometimes you need illusion to gain control.” 
+[Harvey]  “I don’t play the odds. I play the man.”
+[Someone]   for windows problem reboot, for linux problems be root
+[Sherlock]  “I always know when the game is on; because i love it.”
+[Watson]  “The problems of your past are your business, The problems of your future are my previlage.”
+[Elliot]  “They will die in debt for things they didn’t want to do.” 
+[Elliot]  “Power belongs to the people that take it. Nothing to do with their hard work, strong ambitions, or rightful qualifications, no. The actual will to take is often the only thing that’s necessary.” 
+[Elliot]  “When you see a good move, look for a better one.” 
+[Sherlock]  “Anderson, don’t talk out loud. You lower the IQ of the whole street.”

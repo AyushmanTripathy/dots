@@ -1,1 +1,3 @@
 Theme = custom.txt
+MusicDir = "/home/ayush/music"
+StartInMusicDir = "yes"
