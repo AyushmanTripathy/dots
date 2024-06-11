@@ -13,7 +13,7 @@ nnoremap <Tab>p :PrettierAsync <CR>
 nnoremap <Tab>i gg=G
 nnoremap <Tab>c :%y+<cr>
 nnoremap <Tab>s :vsplit <cr>
-nnoremap <Tab>f :FZF <cr>
+nnoremap <Tab>f :FzfLua files previewer=false<cr>
 nnoremap <Tab>h :set hlsearch!<cr>
 
 " moving through screens
@@ -39,6 +39,7 @@ inoremap <leader>o <C-x><C-o>
 inoremap <leader>f <C-x><C-f>
 
 function! MapBoth(keys, rhs)
+    execute 'vnoremap' a:keys a:rhs
     execute 'noremap' a:keys a:rhs
     execute 'inoremap' a:keys a:rhs
     execute 'cnoremap' a:keys a:rhs

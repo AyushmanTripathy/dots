@@ -3,6 +3,7 @@ KeyChords
 
 1. General (MOD + \)
 
+q | shutdown
 h | help
 w | wifi
 b | bluetooth

@@ -1,6 +1,13 @@
+NAVIGATION
+start and end of brackets | %
+select between brackets   | vib
+delete between brackets   | dib 
+go to next of char        | f
+
 PLUGINS
-surround selected text  | visual select then s<tagname>
-replace surrounding tag | cst<tagname>
+surround selected text      | visual select then s<tagname>
+replace surrounding tag     | cst<tagname>
+multi insert next occurance | Ctrl+n
 
 CORE
 recording | q<register> to start, q to stop, @<register> to play

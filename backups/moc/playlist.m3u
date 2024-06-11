@@ -1,5 +1,5 @@
 #EXTM3U
-#MOCSERIAL: 0
+#MOCSERIAL: 1280
 #EXTINF:201,/home/ayush/music/english/blinding_lights.mp3
 /home/ayush/music/english/blinding_lights.mp3
 #EXTINF:205,/home/ayush/music/english/come_and_get_your_love.mp3

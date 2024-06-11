@@ -21,6 +21,7 @@ alias rename-seq='ls -v | cat -n | while read n f; do mv -n "$f" "$n"; done'
 
 # cd command
 alias ..='cd ..'
+alias cdp='cd ~/projects'
 alias cdb='cd ~/.local/bin'
 alias cdl='cd ~/.local'
 alias cdls='cd ~/.local/src'

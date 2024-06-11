@@ -1,4 +1,5 @@
-source $HOME/.config/nvim/plugins.vim
+source $HOME/.config/nvim/vim_plug.vim
+source $HOME/.config/nvim/plugins_config.vim
 source $HOME/.config/nvim/config.vim
 source $HOME/.config/nvim/mapping.vim
 source $HOME/.config/nvim/statusbar.vim

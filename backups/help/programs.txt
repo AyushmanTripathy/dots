@@ -1,2 +1,3 @@
-pinta | image editor written in dotnet
-tgpt  | GPT cli interface
+pinta       | image editor written in dotnet
+tgpt        | GPT cli interface
+pulsemixer  | volume control
