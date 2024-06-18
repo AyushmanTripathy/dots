@@ -6,7 +6,7 @@ static const Block blocks[] = {
   {"",  "cpu-temp",                  5,  0   },
   {"",  "cpu-load",                  1,  0   },
   {"",  "brightness -g",             0,  11  },
-  {"",  "get-volume",                0,  10  },
+  {"",  "volume -g",                0,  10  },
   {"",  "battery",                   5,  0   },
 	{"",  "date '+%b %d (%a) %I:%M%p'", 0,   9 },
 };

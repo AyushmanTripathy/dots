@@ -31,6 +31,7 @@ alias cdcn="cd $XDG_CONFIG_HOME/nvim"
 alias cdt='cd ~/tmp'
 alias cdm="cd $HOME/music"
 alias cdn="cd $HOME/notes"
+alias cdnc="cd $HOME/notes/cs"
 alias cdnd="cd $HOME/notes/dsa"
 alias cdd="cd $HOME/dl"
 

@@ -1,3 +1,4 @@
 pinta       | image editor written in dotnet
 tgpt        | GPT cli interface
 pulsemixer  | volume control
+betterbird  | email client

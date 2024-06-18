@@ -1,12 +1,15 @@
 NAVIGATION
 start and end of brackets | %
-select between brackets   | vib
-delete between brackets   | dib 
+select between brackets   | vi<delimiter>   b for (
+delete between brackets   | di<delimiter>   b for (
 go to next of char        | f
+insert at end of line     | A
 
 PLUGINS
-surround selected text      | visual select then s<tagname>
-replace surrounding tag     | cst<tagname>
+surround selected text      | visual select then s<char>  t for tag
+replace surrounding char    | cs<from><to>                t for tag
+remove surrounding char     | ds<char>                    t for tag
+surround word by char       | ysiw<char>                  t for tag
 multi insert next occurance | Ctrl+n
 
 CORE
