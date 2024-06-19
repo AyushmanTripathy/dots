@@ -7,7 +7,6 @@ quotes.txt
 .config/X11
 .config/moc
 .config/git
-.config/nvim
 .config/kitty
 .config/postroom.json
 .config/dunst
