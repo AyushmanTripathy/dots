@@ -2,6 +2,7 @@
 .bash_aliases
 .bash_profile
 quotes.txt
+.config/nvim
 .config/npmrc
 .config/alacritty.toml
 .config/X11

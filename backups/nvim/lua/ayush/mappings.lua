@@ -7,12 +7,16 @@ local function normalmap(key, binding) map("n", key, binding) end
 normalmap(";", ":")
 
 -- Tab bindings
-normalmap("<Tab>n", ":NvimTreeToggle <CR>")
+normalmap("<Tab>e", ":NvimTreeToggle <CR>")
 normalmap("<Tab>p", ":PrettierAsync <CR>")
 normalmap("<Tab>i", "gg=G")
 normalmap("<Tab>c", ":%y+<cr>")
 normalmap("<Tab>s", ":vsplit <cr>")
 normalmap("<Tab>f", ":FzfLua files previewer=false<cr>")
+normalmap("<Tab>o", ":FzfLua builtin <cr>")
+normalmap("<Tab>g", ":FzfLua grep<cr>")
+normalmap("gd", ":FzfLua lsp_definitions <cr>")
+normalmap("gr", ":FzfLua lsp_references <cr>")
 normalmap("<Tab>h", ":set hlsearch!<cr>")
 
 normalmap("<Tab><left>", "<C-W>h")

@@ -1,4 +1,4 @@
-require("ayush.bindings")
+require("ayush.mappings")
 require("ayush.plugins")
 
 local g = vim.g

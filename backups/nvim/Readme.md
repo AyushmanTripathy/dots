@@ -17,6 +17,7 @@ packages
 
 ### from AUR
 
+1. ripgrep
 1. xclip
 1. clangd
 1. shellcheck-bin (for shelllsp)

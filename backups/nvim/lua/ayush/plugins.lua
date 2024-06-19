@@ -28,7 +28,7 @@ require("lazy").setup({
   "prettier/vim-prettier",
   "mattn/emmet-vim",
   { "nvim-tree/nvim-tree.lua", config = true },
-  { "nvim-lualine/lualine.nvim", options = { theme = 'gruvbox' } },
+  "nvim-lualine/lualine.nvim",
 
   'neovim/nvim-lspconfig',
   'hrsh7th/cmp-nvim-lsp',
@@ -41,7 +41,6 @@ require("lazy").setup({
   'hrsh7th/cmp-vsnip',
   'hrsh7th/vim-vsnip',
 })
-
 
 require('lualine').setup {
   options = {
@@ -64,11 +63,11 @@ require('lualine').setup {
   },
   sections = {
     lualine_a = {'mode'},
-    lualine_b = {'branch', 'diff', 'diagnostics'},
+    lualine_b = {'branch'},
     lualine_c = {'filename'},
-    lualine_x = {'filetype'},
-    lualine_y = {''},
-    lualine_z = {''}
+    lualine_x = {},
+    lualine_y = {'diagnostics'},
+    lualine_z = {'filetype'}
   },
   inactive_sections = {
     lualine_a = {},
@@ -90,20 +89,30 @@ require("nvim-surround").setup({
   }
 })
 
+local gheight = vim.api.nvim_list_uis()[1].height
+local gwidth = vim.api.nvim_list_uis()[1].width
+local height = 30
+local width = 50
+
+local tree_api = require("nvim-tree.api")
+vim.keymap.set("n", "<ESC>", tree_api.tree.close)
 require("nvim-tree").setup({
   view = {
-    signcolumn = "yes",
     float = {
       enable = true,
       open_win_config = {
-        width = 60,
-        col = 10
+        height = height,
+        width = width,
+        row = (gheight - height) * 0.5,
+        col = (gwidth - width) * 0.8,
       }
     }
   },
   renderer = {
     add_trailing = true,
+    root_folder_label = false,
     icons = {
+      git_placement = "signcolumn",
       show = {
         file = false,
         folder = false,
@@ -112,7 +121,12 @@ require("nvim-tree").setup({
         diagnostics = true,
         git = true,
         bookmarks = false,
-      }
+      },
+      glyphs = {
+        git = {
+          untracked = "✗",
+        }
+      },
     }
   }
 })
@@ -166,6 +180,7 @@ cmp.setup({
     { name = 'vsnip' }, -- For vsnip users.
   }, {
     { name = 'buffer' },
+    { name = "path" },
   })
 })
 
