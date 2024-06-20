@@ -11,6 +11,8 @@ replace surrounding char    | cs<from><to>                t for tag
 remove surrounding char     | ds<char>                    t for tag
 surround word by char       | ysiw<char>                  t for tag
 multi insert next occurance | Ctrl+n
+Goto Definition             | gd
+Goto References             | gr
 
 CORE
 recording | q<register> to start, q to stop, @<register> to play
@@ -20,11 +22,13 @@ decrement | Ctrl+x
 SELF
 Tab + [   | goto previous opened file
 Tab + ]   | reverse of previous opened file
-Tab + n   | toggle nerdtree
-Tab + r   | reload configs
+Tab + r   | goto last opened buffer
+Tab + g   | grep project
+Tab + o   | Fzf options
+Tab + f   | open fuzzyfinder
+Tab + e   | toggle nvimtree
 Tab + p   | Prettier
-Tab + i   | remove indentation
+Tab + i   | do indentation
 Tab + c   | copy whole file
 Tab + s   | vertical split
-Tab + f   | open fuzzyfinder
 Tab + h   | toggle search highlighting 
