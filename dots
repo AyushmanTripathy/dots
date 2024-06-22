@@ -52,7 +52,7 @@ retrive(){
   echo "are you sure you wanna do that?"
   read null
 
-  cd $LOCATION
+  cd "$LOCATION"
   ls backups || error 'backups dir not found'
 
   # copying files
