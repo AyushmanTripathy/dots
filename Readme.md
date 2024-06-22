@@ -35,7 +35,7 @@ before using the dotfiles, you need the following
 
 this repo comes with a `dots` script, used to backup files and push to the repo
 below command will retrive all the files in the `list.txt` file
-retriving `private.txt` requires the gpg used to encrypt in the first place
+retriving `private.txt` requires the gpg key used to encrypt in the first place
 
 ```shell
 git clone https://github.com/AyushmanTripathy/dots --depth 1
