@@ -1,9 +1,11 @@
 NAVIGATION
 start and end of brackets | %
 select between brackets   | vi<delimiter>   b for (
-delete between brackets   | di<delimiter>   b for (
+delete between brackets   | di<delimiter>   b for 
 go to next of char        | f
 insert at end of line     | A
+Append below line         | J
+Move selected block       | Selection + j / k
 
 PLUGINS
 surround selected text      | visual select then s<char>  t for tag
@@ -31,4 +33,5 @@ Tab + p   | Prettier
 Tab + i   | do indentation
 Tab + c   | copy whole file
 Tab + s   | vertical split
-Tab + h   | toggle search highlighting 
+Tab + h   | toggle search highlighting
+\   + l   | LSP

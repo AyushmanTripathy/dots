@@ -1,5 +1,5 @@
 #EXTM3U
-#MOCSERIAL: 256
+#MOCSERIAL: 0
 #EXTINF:204,/home/ayush/music/classic/elegance_becomes_her.mp3
 /home/ayush/music/classic/elegance_becomes_her.mp3
 #EXTINF:145,/home/ayush/music/classic/empathy.mp3
@@ -44,7 +44,7 @@
 /home/ayush/music/english/boyfriend.mp3
 #EXTINF:224,/home/ayush/music/english/cheri_cheri_lady.mp3
 /home/ayush/music/english/cheri_cheri_lady.mp3
-#EXTINF:206,/home/ayush/music/english/come_and_get_your_love.mp3
+#EXTINF:205,/home/ayush/music/english/come_and_get_your_love.mp3
 /home/ayush/music/english/come_and_get_your_love.mp3
 #EXTINF:180,/home/ayush/music/english/comethru.mp3
 /home/ayush/music/english/comethru.mp3
@@ -142,6 +142,8 @@
 /home/ayush/music/english/shivers.mp3
 #EXTINF:243,/home/ayush/music/english/somebody_that_i_used_to_know.mp3
 /home/ayush/music/english/somebody_that_i_used_to_know.mp3
+#EXTINF:0,/home/ayush/music/english/somebody_to_love.mp3
+/home/ayush/music/english/somebody_to_love.mp3
 #EXTINF:198,/home/ayush/music/english/sorry.mp3
 /home/ayush/music/english/sorry.mp3
 #EXTINF:204,/home/ayush/music/english/south_of_the_border.mp3
@@ -174,6 +176,8 @@
 /home/ayush/music/english/way_down_we_go.mp3
 #EXTINF:248,/home/ayush/music/english/why_this_kolaveri_di.mp3
 /home/ayush/music/english/why_this_kolaveri_di.mp3
+#EXTINF:0,/home/ayush/music/english/worth_it.mp3
+/home/ayush/music/english/worth_it.mp3
 #EXTINF:183,/home/ayush/music/english/you_make_my_dreams_come_true.mp3
 /home/ayush/music/english/you_make_my_dreams_come_true.mp3
 #EXTINF:141,/home/ayush/music/hindi/11_am.mp3
@@ -240,6 +244,8 @@
 /home/ayush/music/hindi/chaleya.mp3
 #EXTINF:275,/home/ayush/music/hindi/chand_sifarish.mp3
 /home/ayush/music/hindi/chand_sifarish.mp3
+#EXTINF:0,/home/ayush/music/hindi/channa_ve.mp3
+/home/ayush/music/hindi/channa_ve.mp3
 #EXTINF:213,/home/ayush/music/hindi/char_baj_gaye.mp3
 /home/ayush/music/hindi/char_baj_gaye.mp3
 #EXTINF:191,/home/ayush/music/hindi/chhodo_kaliyan.mp3
@@ -334,6 +340,8 @@
 /home/ayush/music/hindi/irady.mp3
 #EXTINF:221,/home/ayush/music/hindi/ishq_bullaba.mp3
 /home/ayush/music/hindi/ishq_bullaba.mp3
+#EXTINF:0,/home/ayush/music/hindi/ishq_ka_raja.mp3
+/home/ayush/music/hindi/ishq_ka_raja.mp3
 #EXTINF:221,/home/ayush/music/hindi/ishq_nachaawe.mp3
 /home/ayush/music/hindi/ishq_nachaawe.mp3
 #EXTINF:325,/home/ayush/music/hindi/ishq_sufiyana.mp3
@@ -646,8 +654,12 @@
 /home/ayush/music/others/alien_shooter_2_action_track.mp3
 #EXTINF:149,/home/ayush/music/others/alien_shooter_2_track.mp3
 /home/ayush/music/others/alien_shooter_2_track.mp3
+#EXTINF:0,/home/ayush/music/others/bailando.mp3
+/home/ayush/music/others/bailando.mp3
 #EXTINF:222,/home/ayush/music/others/bombay_dreams.mp3
 /home/ayush/music/others/bombay_dreams.mp3
+#EXTINF:237,/home/ayush/music/others/calma.mp3
+/home/ayush/music/others/calma.mp3
 #EXTINF:195,/home/ayush/music/others/chantaje.mp3
 /home/ayush/music/others/chantaje.mp3
 #EXTINF:228,/home/ayush/music/others/despacito.mp3
@@ -680,6 +692,8 @@
 /home/ayush/music/others/scorching_winds.mp3
 #EXTINF:32,/home/ayush/music/others/the_office_intro.mp3
 /home/ayush/music/others/the_office_intro.mp3
+#EXTINF:0,/home/ayush/music/others/throw_the_jew.mp3
+/home/ayush/music/others/throw_the_jew.mp3
 #EXTINF:217,/home/ayush/music/others/vikram.mp3
 /home/ayush/music/others/vikram.mp3
 #EXTINF:272,/home/ayush/music/punjabi/295.mp3
@@ -772,13 +786,13 @@
 /home/ayush/music/punjabi/ram_ram.mp3
 #EXTINF:190,/home/ayush/music/punjabi/rubicon_drill.mp3
 /home/ayush/music/punjabi/rubicon_drill.mp3
-#EXTINF:196,/home/ayush/music/punjabi/safar.mp3
+#EXTINF:195,/home/ayush/music/punjabi/safar.mp3
 /home/ayush/music/punjabi/safar.mp3
 #EXTINF:199,/home/ayush/music/punjabi/sakhiyan.mp3
 /home/ayush/music/punjabi/sakhiyan.mp3
 #EXTINF:208,/home/ayush/music/punjabi/she_dont_know.mp3
 /home/ayush/music/punjabi/she_dont_know.mp3
-#EXTINF:171,/home/ayush/music/punjabi/softy.mp3
+#EXTINF:170,/home/ayush/music/punjabi/softy.mp3
 /home/ayush/music/punjabi/softy.mp3
 #EXTINF:171,/home/ayush/music/punjabi/still_rollin.mp3
 /home/ayush/music/punjabi/still_rollin.mp3

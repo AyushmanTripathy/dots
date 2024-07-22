@@ -1,6 +1,6 @@
 -- key bindings
 local function map(mode, key, binding)
-        vim.keymap.set(mode, key, binding, { noremap = true })
+  vim.keymap.set(mode, key, binding, { noremap = true })
 end
 
 local function normalmap(key, binding) map("n", key, binding) end
@@ -33,13 +33,17 @@ visualmap("d", '"+d')
 visualmap("y", '"+y')
 visualmap("p", '"+p')
 
+-- move block in visual mode
+visualmap("j",":m '>+1<CR>gv=gv")
+visualmap("k",":m '<-2<CR>gv=gv")
+
 local function insertmap(key, binding) map("i", key, binding) end
 insertmap("<leader><cr>", "<C-o>o")
 
 local keys_shifted = {
   {"`", "~"}, {"1", "!"}, {"2", "@"}, {"3", "#"}, {'4', '$'}, {'5', '%'}, 
   {'6','^'}, {'7', '&'}, {'8', '*'}, {'0', ')'}, {'-', '_'}, {'=', '+'}, {';', ':'}, {"'", '"'}, 
-  {',', '<'}, {'.', '>'}, {'/', '?'}, {"]", "}"}, {'9', '('}, {'[', '{'}
+  {',', '<'}, {'.', '>'}, {'/', '?'}, {"]", "}"}, {'9', '()<Left>'}, {'[', '{}<Left>'}
 }
 
 for i, v in pairs(keys_shifted) do

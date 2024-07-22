@@ -1,3 +1,5 @@
 [user]
 	email = ayushmantripathy2004@gmail.com
 	name = AyushmanTripathy
+[alias]
+  diffwords = diff --color-words='[^[:space:]]|([[:alnum:]]|UTF_8_GUARD)+'

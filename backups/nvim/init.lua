@@ -16,6 +16,7 @@ o.expandtab = true
 
 o.ignorecase = true
 o.smartcase = true
+o.smartindent = true
 o.wrap = true
 o.tabstop = 2
 o.shiftwidth = 0

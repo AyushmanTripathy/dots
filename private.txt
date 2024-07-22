@@ -5,3 +5,4 @@ watchlist.txt
 private/ssh_device_list.txt
 private/wifi_passwords.txt
 private/.pat
+.local/share/ytp/playlists.txt
