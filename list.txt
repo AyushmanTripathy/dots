@@ -12,6 +12,7 @@ quotes.txt
 .config/postroom.json
 .config/dunst
 .config/picom
+.config/sqlite3
 .local/src/dwmblocks/blocks.def.h
 .local/src/slock/config.def.h
 .local/share/help
