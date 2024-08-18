@@ -1,5 +1,5 @@
 #EXTM3U
-#MOCSERIAL: 256
+#MOCSERIAL: 0
 #EXTINF:210,/home/ayush/music/english/1234.mp3
 /home/ayush/music/english/1234.mp3
 #EXTINF:187,/home/ayush/music/english/2002.mp3
@@ -14,8 +14,10 @@
 /home/ayush/music/english/i_love_you_baby.mp3
 #EXTINF:214,/home/ayush/music/english/its_you.mp3
 /home/ayush/music/english/its_you.mp3
-#EXTINF:85,/home/ayush/music/english/le_vie_en_rose.mp3
-/home/ayush/music/english/le_vie_en_rose.mp3
+#EXTINF:85,/home/ayush/music/english/la_vie_en_rose.mp3
+/home/ayush/music/english/la_vie_en_rose.mp3
+#EXTINF:0,/home/ayush/music/english/let_her_go.mp3
+/home/ayush/music/english/let_her_go.mp3
 #EXTINF:350,/home/ayush/music/english/open_your_eyes.mp3
 /home/ayush/music/english/open_your_eyes.mp3
 #EXTINF:263,/home/ayush/music/english/perfect.mp3
@@ -82,6 +84,8 @@
 /home/ayush/music/hindi/i_love_you.mp3
 #EXTINF:133,/home/ayush/music/hindi/irady.mp3
 /home/ayush/music/hindi/irady.mp3
+#EXTINF:0,/home/ayush/music/hindi/itni_si_baat_hai.mp3
+/home/ayush/music/hindi/itni_si_baat_hai.mp3
 #EXTINF:315,/home/ayush/music/hindi/jash_e_bahaaraa.mp3
 /home/ayush/music/hindi/jash_e_bahaaraa.mp3
 #EXTINF:261,/home/ayush/music/hindi/jia_dhadak_jaye.mp3

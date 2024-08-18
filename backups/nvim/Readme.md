@@ -8,6 +8,7 @@ language servers (LSPs)
 1. bash-language-server
 1. vscode-css-languageserver-bin
 1. pyright
+1. svelte-language-server
 
 packages
 

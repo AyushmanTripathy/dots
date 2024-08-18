@@ -12,10 +12,14 @@ normalmap("<Tab>p", ":PrettierAsync <CR>")
 normalmap("<Tab>i", "gg=G")
 normalmap("<Tab>c", ":%y+<cr>")
 normalmap("<Tab>s", ":vsplit <cr>")
+
+-- FzfLua
 normalmap("<Tab>f", ":FzfLua files previewer=false<cr>")
 normalmap("<Tab>o", ":FzfLua builtin <cr>")
+normalmap("<Tab>l", ":FzfLua diagnostics_document <cr>")
 normalmap("<Tab>r", ":FzfLua buffers <cr>")
 normalmap("<Tab>g", ":FzfLua grep<cr>")
+
 normalmap("gd", ":FzfLua lsp_definitions <cr>")
 normalmap("gr", ":FzfLua lsp_references <cr>")
 normalmap("<Tab>h", ":set hlsearch!<cr>")
