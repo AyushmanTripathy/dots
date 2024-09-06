@@ -78,6 +78,11 @@ local function add_lsp_config()
     capabilities = capabilities
   }
   lspconfig.tsserver.setup {
+    settings = {
+      implicitProjectConfiguration = {
+        checkJs = true
+      }
+    },
     capabilities = capabilities
   }
   lspconfig.pyright.setup {
