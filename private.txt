@@ -5,4 +5,5 @@ watchlist.txt
 private/ssh_device_list.txt
 private/wifi_passwords.txt
 private/.pat
+private/github-recovery-codes.txt
 .local/share/ytp/playlists.txt

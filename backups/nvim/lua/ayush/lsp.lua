@@ -99,6 +99,8 @@ local function add_lsp_config()
     filetypes = {
         "html",
         "css",
+        "scss",
+        "less",
         "javascriptreact",
         "typescriptreact"
     },

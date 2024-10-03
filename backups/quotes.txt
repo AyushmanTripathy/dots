@@ -1,39 +1,23 @@
-[Mr.Robot]  “The world is a dangerous place, Elliott, not because of those who do evil, but because of those who look on and do nothing.” 
-[J.R.R. Tolkiens] Not all who wander are lost.
-[Harvey]  “When you’re backed against the wall, break the goddamn thing down.”
-[Elliot]  “I’ve never found it hard to hack most people. If you listen to them, watch them, their vulnerabilities are like a neon sign.” 
 [Michael]  “That’s what she said.”
-[Sherlock]  “The Game Is On!”
-[Elliot]  “Sure, there are grays… But when you come right down to it, at its core, beneath every choice, there’s either a one or a zero. You either do something or you don’t.” 
-[Elliot]  “We’re all living in each other’s paranoia.” 
-[Sherlock]  “Sentiment is a chemical defect found on the losing side.”
-"Fuck it, We Ball!"
-[Barney] "I'm surrounded by idiots... IDIOTS."
-[Whiterose]  “Don’t mistake my generosity for generosity.” 
-[Barney] "A lie is just a great story that someone ruined with the truth."
-[Harvey]  “I don’t get lucky. i make my own luck.”
-[Sherlock]  “I’m not a psychopath, Anderson. I’m a high-functioning sociopath. Do your research.”
-[Harvey]  “So I'd say the ball's in your court, but the truth is your balls are in my fist.”
-[Elliot]  “They will die in debt for things they didn’t want to do.” 
-[Watson]  “The problems of your past are your business, The problems of your future are my previlage.”
-[Barney] "The only time you should wait a month to have sex with a girl is if shes 17 years 11 months old."
 [Sherlock]  “The East Wind Takes Us All in the End.”
-[Sherlock]  “Anderson, don’t talk out loud. You lower the IQ of the whole street.”
-[Elliot]  “Control can sometimes be an illusion. But sometimes you need illusion to gain control.” 
-[Elliot]  “When you see a good move, look for a better one.” 
-[Harvey]  “I don’t play the odds. I play the man.”
-[Elliot]  “I’m good at reading people. My secret, I look for the worst in them.” 
-[Elliot]  “It’s good. So good, it scratched that part of my mind. The part that doesn’t allow good to exist without a condition.” 
-[Someone]   for windows problem reboot, for linux problems be root
+[J.R.R. Tolkiens] Not all who wander are lost.
 [Harvey]  “Ever loved someone so much, you would do anything for them? Yeah, well make that someone yourself and do whatever you want.”
-[Sherlock]  “My name is Sherlock Holmes. It is my business to know what other people don’t know.”
-[Harvey]  “The only thing you need is an unshakeable belief in yourself.”
-[Irving]  “When we lose our principles, we invite chaos.” 
-[Barney] "When i let a day go by without talking to you, that day is just no good."
-[Sherlock]  “I always know when the game is on; because i love it.”
-[Elliot]  “I never want to be right about my hacks, but people always find a way to disappoint.” 
-[Elliot]  “Power belongs to the people that take it. Nothing to do with their hard work, strong ambitions, or rightful qualifications, no. The actual will to take is often the only thing that’s necessary.” 
-[Barney] "It's not legendary, unless your friends are there to see it."
-[Michael]  “Well, well, well, how the turntables.”
+[Sherlock]  “The Game Is On!”
+[Elliot]  “Control can sometimes be an illusion. But sometimes you need illusion to gain control.” 
 [Elliot]  “Maybe wars aren’t meant to be won, maybe they’re meant to be continuous.” 
-[Elliot]  “You walk out that door, you’ve decided to do nothing, to say no, which means you do not come back. You leave, you are no longer a part of this. You become a zero. If you stay, if you want to change the world, you become a yes. You become a one.” 
+[Elliot]  “I’m good at reading people. My secret, I look for the worst in them.” 
+[George Orwell] Who controls the past controls the future; who controls the present controls the past.
+[Harvey]  “I don’t play the odds. I play the man.”
+[Harvey]  “When you’re backed against the wall, break the goddamn thing down.”
+[Barney] "When i let a day go by without talking to you, that day is just no good."
+[Irving]  “When we lose our principles, we invite chaos.” 
+[Sherlock]  “I’m not a psychopath, Anderson. I’m a high-functioning sociopath. Do your research.”
+[Elliot]  “It’s good. So good, it scratched that part of my mind. The part that doesn’t allow good to exist without a condition.” 
+[Mr.Robot]  “The world is a dangerous place, Elliott, not because of those who do evil, but because of those who look on and do nothing.” 
+[Barney] "It's not legendary, unless your friends are there to see it."
+[Harvey]  “I don’t get lucky. i make my own luck.”
+[Michael]  “Well, well, well, how the turntables.”
+[Watson]  “The problems of your past are your business, The problems of your future are my previlage.”
+"Fuck it, We Ball!"
+[Harvey]  “The only thing you need is an unshakeable belief in yourself.”
+[H. P. Lovecraft] The world is indeed comic but the joke is on mankind meaning

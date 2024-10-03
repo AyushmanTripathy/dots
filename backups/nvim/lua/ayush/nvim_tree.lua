@@ -6,6 +6,9 @@ local width = 50
 local tree_api = require("nvim-tree.api")
 vim.keymap.set("n", "<ESC>", tree_api.tree.close)
 require("nvim-tree").setup({
+  diagnostics = {
+    enable = true,
+  },
   view = {
     float = {
       enable = true,

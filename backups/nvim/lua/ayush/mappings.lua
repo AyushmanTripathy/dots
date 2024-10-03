@@ -16,9 +16,10 @@ normalmap("<Tab>s", ":vsplit <cr>")
 -- FzfLua
 normalmap("<Tab>f", ":FzfLua files previewer=false<cr>")
 normalmap("<Tab>o", ":FzfLua builtin <cr>")
+normalmap("<Tab>a", ":FzfLua lsp_code_actions <cr>")
 normalmap("<Tab>l", ":FzfLua diagnostics_document <cr>")
 normalmap("<Tab>r", ":FzfLua buffers <cr>")
-normalmap("<Tab>g", ":FzfLua grep<cr>")
+normalmap("<Tab>g", ":FzfLua live_grep<cr>")
 
 normalmap("gd", ":FzfLua lsp_definitions <cr>")
 normalmap("gr", ":FzfLua lsp_references <cr>")
@@ -45,8 +46,8 @@ local function insertmap(key, binding) map("i", key, binding) end
 insertmap("<leader><cr>", "<C-o>o")
 
 local keys_shifted = {
-  {"`", "~"}, {"1", "!"}, {"2", "@"}, {"3", "#"}, {'4', '$'}, {'5', '%'}, 
-  {'6','^'}, {'7', '&'}, {'8', '*'}, {'0', ')'}, {'-', '_'}, {'=', '+'}, {';', ':'}, {"'", '"'}, 
+  {"`", "~"}, {"1", "!"}, {"2", "@"}, {"3", "#"}, {'4', '$'}, {'5', '%'},
+  {'6','^'}, {'7', '&'}, {'8', '*'}, {'0', ')'}, {'-', '_'}, {'=', '+'}, {';', ':'}, {"'", '"'},
   {',', '<'}, {'.', '>'}, {'/', '?'}, {"]", "}"}, {'9', '()<Left>'}, {'[', '{}<Left>'}
 }
 
