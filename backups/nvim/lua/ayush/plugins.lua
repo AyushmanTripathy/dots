@@ -44,6 +44,8 @@ require("lazy").setup({
   'hrsh7th/vim-vsnip',
 })
 
+require("treesitter-context").setup()
+
 require("nvim-surround").setup({
   keymaps = {
     visual = 's'

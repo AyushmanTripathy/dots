@@ -1,5 +1,5 @@
 #EXTM3U
-#MOCSERIAL: 256
+#MOCSERIAL: 0
 #EXTINF:201,/home/ayush/music/english/blinding_lights.mp3
 /home/ayush/music/english/blinding_lights.mp3
 #EXTINF:205,/home/ayush/music/english/come_and_get_your_love.mp3
@@ -10,6 +10,8 @@
 /home/ayush/music/english/heat_waves.mp3
 #EXTINF:218,/home/ayush/music/english/hips_dont_lie.mp3
 /home/ayush/music/english/hips_dont_lie.mp3
+#EXTINF:237,/home/ayush/music/english/ice_ice_baby.mp3
+/home/ayush/music/english/ice_ice_baby.mp3
 #EXTINF:217,/home/ayush/music/english/i_dont_care.mp3
 /home/ayush/music/english/i_dont_care.mp3
 #EXTINF:97,/home/ayush/music/english/jiggle_jiggle.mp3
@@ -38,10 +40,14 @@
 /home/ayush/music/hindi/awaargi.mp3
 #EXTINF:524,/home/ayush/music/hindi/barsaat_ke_mausham.mp3
 /home/ayush/music/hindi/barsaat_ke_mausham.mp3
+#EXTINF:210,/home/ayush/music/hindi/besabriyan.mp3
+/home/ayush/music/hindi/besabriyan.mp3
 #EXTINF:213,/home/ayush/music/hindi/char_baj_gaye.mp3
 /home/ayush/music/hindi/char_baj_gaye.mp3
 #EXTINF:263,/home/ayush/music/hindi/chor_bazari.mp3
 /home/ayush/music/hindi/chor_bazari.mp3
+#EXTINF:336,/home/ayush/music/hindi/dil_to_baccha_hai.mp3
+/home/ayush/music/hindi/dil_to_baccha_hai.mp3
 #EXTINF:130,/home/ayush/music/hindi/funny_zindagi.mp3
 /home/ayush/music/hindi/funny_zindagi.mp3
 #EXTINF:135,/home/ayush/music/hindi/gal_mitthi_mitthi.mp3
