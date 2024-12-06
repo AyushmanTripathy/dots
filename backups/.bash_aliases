@@ -6,6 +6,7 @@ alias quote='printf "\n$(sort -R ~/quotes.txt | head -n1)\n"'
 alias gitlog='git log --all --decorate --graph --oneline'
 alias tree='tree --gitignore'
 
+alias open="xdg-open"
 alias du='du -h'
 alias df='df -h'
 alias progress='progress -m'
