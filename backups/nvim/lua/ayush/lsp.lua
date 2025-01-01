@@ -106,7 +106,6 @@ local function add_lsp_config()
     },
     cmd = {"css-languageserver", "--stdio" }
   }
-
   vim.cmd("e")
 end
 
