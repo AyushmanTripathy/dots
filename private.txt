@@ -2,8 +2,10 @@ todo.txt
 agenda.txt
 playlist.txt
 watchlist.txt
+private/diary.md
 private/ssh_device_list.txt
 private/wifi_passwords.txt
 private/.pat
+private/music.txt
 private/github-recovery-codes.txt
 .local/share/ytp/playlists.txt
