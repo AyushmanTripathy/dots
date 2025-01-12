@@ -1,112 +1,59 @@
-local cmp = require('cmp')
-local has_words_before = function()
-  unpack = unpack or table.unpack
-  local line, col = unpack(vim.api.nvim_win_get_cursor(0))
-  return col ~= 0 and vim.api.nvim_buf_get_lines(0, line - 1, line, true)[1]:sub(col, col):match("%s") == nil
-end
+-- Reserve a space in the gutter
+-- This will avoid an annoying layout shift in the screen
+vim.opt.signcolumn = 'yes'
 
-local feedkey = function(key, mode)
-  vim.api.nvim_feedkeys(vim.api.nvim_replace_termcodes(key, true, true, true), mode, true)
+-- Add cmp_nvim_lsp capabilities settings to lspconfig
+-- This should be executed before you configure any language server
+local lspconfig_defaults = require('lspconfig').util.default_config
+lspconfig_defaults.capabilities = vim.tbl_deep_extend(
+  'force',
+  lspconfig_defaults.capabilities,
+  require('cmp_nvim_lsp').default_capabilities()
+)
+
+require('mason').setup({})
+local function add_lsp()
+  require('mason-lspconfig').setup({
+    handlers = {
+      function(server_name)
+        require('lspconfig')[server_name].setup({})
+      end,
+    },
+  })
+  vim.cmd("e")
 end
+vim.keymap.set("n", "<leader>l", add_lsp)
+
+local cmp = require('cmp')
 
 cmp.setup({
-  snippet = {
-    -- REQUIRED - you must specify a snippet engine
-    expand = function(args)
-      vim.fn["vsnip#anonymous"](args.body) -- For `vsnip` users.
-    end,
-  },
-  window = {
-    -- completion = cmp.config.window.bordered(),
-    -- documentation = cmp.config.window.bordered(),
+  sources = {
+    { name = 'nvim_lsp' },
   },
   mapping = cmp.mapping.preset.insert({
-    ['<C-b>'] = cmp.mapping.scroll_docs(-4),
-    ['<C-f>'] = cmp.mapping.scroll_docs(4),
-    ['<C-Space>'] = cmp.mapping.complete(),
-    ['<C-e>'] = cmp.mapping.abort(),
-    ['<leader><leader>'] = cmp.mapping.confirm({ select = true }), -- Accept currently selected item. Set `select` to `false` to only confirm explicitly selected items.
+    -- Navigate between completion items
+    ['<C-p>'] = cmp.mapping.select_prev_item({ behavior = 'select' }),
     ["<Tab>"] = cmp.mapping(function(fallback)
       if cmp.visible() then
-        cmp.select_next_item()
-      elseif vim.fn["vsnip#available"](1) == 1 then
-        feedkey("<Plug>(vsnip-expand-or-jump)", "")
-      elseif has_words_before() then
-        cmp.complete()
+        cmp.select_next_item({ behavior = 'select' })
       else
         fallback() -- The fallback function sends a already mapped key. In this case, it's probably `<Tab>`.
       end
     end, { "i", "s" }),
+
+    -- `Enter` key to confirm completion
+    ['<CR>'] = cmp.mapping.confirm({ select = false }),
+
+    -- Ctrl+Space to trigger completion menu
+    ['<C-Space>'] = cmp.mapping.complete(),
+
+    -- Scroll up and down in the completion documentation
+    ['<C-u>'] = cmp.mapping.scroll_docs(-4),
+    ['<C-d>'] = cmp.mapping.scroll_docs(4),
   }),
-  sources = cmp.config.sources({
-    { name = 'nvim_lsp' },
-    { name = 'vsnip' }, -- For vsnip users.
-  }, {
-    { name = 'buffer' },
-    { name = "path" },
-  })
+  snippet = {
+    expand = function(args)
+      vim.snippet.expand(args.body)
+    end,
+  },
 })
-
--- Use buffer source for `/` and `?` (if you enabled `native_menu`, this won't work anymore).
-cmp.setup.cmdline({ '/', '?' }, {
-  mapping = cmp.mapping.preset.cmdline(),
-  sources = {
-    { name = 'buffer' }
-  }
-})
-
--- Use cmdline & path source for ':' (if you enabled `native_menu`, this won't work anymore).
-cmp.setup.cmdline(':', {
-  mapping = cmp.mapping.preset.cmdline(),
-  sources = cmp.config.sources({
-    { name = 'path' }
-  }, {
-    { name = 'cmdline' }
-  }),
-  matching = { disallow_symbol_nonprefix_matching = false }
-})
-
-local function add_lsp_config()
-  -- Set up lspconfig.
-  local capabilities = require('cmp_nvim_lsp').default_capabilities()
-  -- Replace <YOUR_LSP_SERVER> with each lsp server you've enabled.
-  local lspconfig = require('lspconfig')
-  lspconfig.svelte.setup{
-    capabilities = capabilities
-  }
-  lspconfig.clangd.setup {
-    capabilities = capabilities
-  }
-  lspconfig.tsserver.setup {
-    settings = {
-      implicitProjectConfiguration = {
-        checkJs = true
-      }
-    },
-    capabilities = capabilities
-  }
-  lspconfig.pyright.setup {
-    capabilities = capabilities
-  }
-  lspconfig.bashls.setup {
-    capabilities = capabilities
-  }
-  lspconfig.lua_ls.setup {
-    capabilities = capabilities
-  }
-  lspconfig.cssls.setup {
-    capabilities = capabilities,
-    filetypes = {
-        "html",
-        "css",
-        "scss",
-        "less",
-        "javascriptreact",
-        "typescriptreact"
-    },
-    cmd = {"css-languageserver", "--stdio" }
-  }
-  vim.cmd("e")
-end
-
-vim.keymap.set("n", "<leader>l", add_lsp_config)

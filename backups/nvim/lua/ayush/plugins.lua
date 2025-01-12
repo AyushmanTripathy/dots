@@ -32,16 +32,12 @@ require("lazy").setup({
   { "nvim-tree/nvim-tree.lua", config = true },
   "nvim-lualine/lualine.nvim",
 
-  'neovim/nvim-lspconfig',
-  'hrsh7th/cmp-nvim-lsp',
-  'hrsh7th/cmp-buffer',
-  'hrsh7th/cmp-path',
-  'hrsh7th/cmp-cmdline',
-  'hrsh7th/nvim-cmp',
+  {'neovim/nvim-lspconfig'},
+  {'hrsh7th/cmp-nvim-lsp'},
+  {'hrsh7th/nvim-cmp'},
 
-  -- vsnip users
-  'hrsh7th/cmp-vsnip',
-  'hrsh7th/vim-vsnip',
+  {'williamboman/mason.nvim'},
+  {'williamboman/mason-lspconfig.nvim'},
 })
 
 require("treesitter-context").setup()
