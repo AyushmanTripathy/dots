@@ -15,6 +15,7 @@ g.loaded_netrw = 1
 o.termguicolors = true
 o.background = "dark"
 o.number = true
+o.relativenumber = true
 o.expandtab = true
 
 o.ignorecase = true
@@ -30,7 +31,7 @@ o.scrolloff = 18
 
 vim.cmd.set("nohlsearch")
 vim.api.nvim_create_autocmd( { "BufNewFile", "BufRead" }, {
-  pattern = { "*.svelte" },
+  pattern = { "*.svelte", "*.ejs" },
   callback = function ()
     vim.cmd.set("syntax=html")
   end
