@@ -1,24 +1,25 @@
-"Fuck it, We Ball!"
-[Mr.Robot]  “The world is a dangerous place, Elliott, not because of those who do evil, but because of those who look on and do nothing.” 
-[Sherlock]  “The Game Is On!”
-[Elliot]  “Maybe wars aren’t meant to be won, maybe they’re meant to be continuous.” 
-[Sherlock]  “The East Wind Takes Us All in the End.”
-"Show me the heros that your countries's youth look up to and i will tell you the future of your country."
-[Sherlock]  “I’m not a psychopath, Anderson. I’m a high-functioning sociopath. Do your research.”
-[Barney] "When i let a day go by without talking to you, that day is just no good."
-[Harvey]  “When you’re backed against the wall, break the goddamn thing down.”
-[Harvey]  “I don’t get lucky. i make my own luck.”
-[J.R.R. Tolkiens] Not all who wander are lost.
-[Irving]  “When we lose our principles, we invite chaos.” 
-[George Orwell] Who controls the past controls the future; who controls the present controls the past.
-[Harvey]  “The only thing you need is an unshakeable belief in yourself.”
-[H. P. Lovecraft] The world is indeed comic but the joke is on mankind meaning
-[Barney] "It's not legendary, unless your friends are there to see it."
-[Watson]  “The problems of your past are your business, The problems of your future are my previlage.”
 [Elliot]  “I’m good at reading people. My secret, I look for the worst in them.” 
-[Harvey]  “Ever loved someone so much, you would do anything for them? Yeah, well make that someone yourself and do whatever you want.”
-[Michael]  “That’s what she said.”
-[Harvey]  “I don’t play the odds. I play the man.”
-[Elliot]  “It’s good. So good, it scratched that part of my mind. The part that doesn’t allow good to exist without a condition.” 
-[Elliot]  “Control can sometimes be an illusion. But sometimes you need illusion to gain control.” 
+[Barney] "It's not legendary, unless your friends are there to see it."
+[Sherlock]  “The East Wind Takes Us All in the End.”
+[Watson]  “The problems of your past are your business, The problems of your future are my previlage.”
+"Show me the heros that your countries's youth look up to and i will tell you the future of your country."
+[George Orwell] Who controls the past controls the future; who controls the present controls the past.
+"Fuck it, We Ball!"
+[Elliot]  “Maybe wars aren’t meant to be won, maybe they’re meant to be continuous.” 
+[Sherlock]  “I’m not a psychopath, Anderson. I’m a high-functioning sociopath. Do your research.”
 [Michael]  “Well, well, well, how the turntables.”
+[Harvey]  “Ever loved someone so much, you would do anything for them? Yeah, well make that someone yourself and do whatever you want.”
+[Elliot]  “It’s good. So good, it scratched that part of my mind. The part that doesn’t allow good to exist without a condition.” 
+[Sherlock]  “The Game Is On!”
+[Irving]  “When we lose our principles, we invite chaos.” 
+[Harvey]  “I don’t get lucky. i make my own luck.”
+[Harvey]  “When you’re backed against the wall, break the goddamn thing down.”
+[Mr.Robot]  “The world is a dangerous place, Elliott, not because of those who do evil, but because of those who look on and do nothing.” 
+[Elliot]  “Control can sometimes be an illusion. But sometimes you need illusion to gain control.” 
+[H. P. Lovecraft] The world is indeed comic but the joke is on mankind meaning
+[Sun Tzu] "To catch a fish you never ask the fish, you ask the fisherman"
+[Harvey]  “I don’t play the odds. I play the man.”
+[J.R.R. Tolkiens] Not all who wander are lost.
+[Michael]  “That’s what she said.”
+[Barney] "When i let a day go by without talking to you, that day is just no good."
+[Harvey]  “The only thing you need is an unshakeable belief in yourself.”

@@ -58,6 +58,7 @@ visualmap("k", ":m '<-2<CR>gv=gv")
 
 local function insertmap(key, binding) map("i", key, binding) end
 insertmap("<leader><cr>", "<C-o>o")
+insertmap("<leader>f", "<C-x><C-f>")
 
 local keys_shifted = {
   { "`", "~" }, { "1", "!" }, { "2", "@" }, { "3", "#" }, { '4', '$' }, { '5', '%' },
