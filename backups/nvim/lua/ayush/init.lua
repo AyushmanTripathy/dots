@@ -29,10 +29,13 @@ o.smoothscroll = true
 o.jumpoptions = "view"
 o.scrolloff = 18
 
+vim.treesitter.language.register("html", "ejs")
+vim.treesitter.language.register("javascript", "ejs")
+
 vim.cmd.set("nohlsearch")
-vim.api.nvim_create_autocmd( { "BufNewFile", "BufRead" }, {
+vim.api.nvim_create_autocmd({ "BufNewFile", "BufRead" }, {
   pattern = { "*.svelte", "*.ejs" },
-  callback = function ()
+  callback = function()
     vim.cmd.set("syntax=html")
   end
 })

@@ -21,6 +21,7 @@ vim.g.user_emmet_settings = {
 }
 
 require("lazy").setup({
+  "mbbill/undotree",
   "nvim-treesitter/nvim-treesitter-context",
   { "ellisonleao/gruvbox.nvim", priority = 1000 , config = true },
   "maxmellon/vim-jsx-pretty",

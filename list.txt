@@ -17,3 +17,4 @@ quotes.txt
 .local/src/slock/config.def.h
 .local/share/help
 .local/share/emojis.txt
+.local/share/wallpaper.txt

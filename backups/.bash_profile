@@ -2,16 +2,17 @@
 # ~/.bash_profile
 #
 
+export XDG_CONFIG_HOME="$HOME/.config"
+export XDG_CACHE_HOME="$HOME/.local/cache"
+export XDG_DATA_HOME="$HOME/.local/share"
+export XDG_STATE_HOME="$HOME/.local/state"
+
 export EDITOR="nvim"
 export BROWSER="chromium"
 export USERNAME="ayush"
 export GITHUB_USERNAME="AyushmanTripathy"
 export MUSICDB="$HOME/music"
-
-export XDG_CONFIG_HOME="$HOME/.config"
-export XDG_CACHE_HOME="$HOME/.local/cache"
-export XDG_DATA_HOME="$HOME/.local/share"
-export XDG_STATE_HOME="$HOME/.local/state"
+export WALLPAPER="$XDG_DATA_HOME/wallpaper.txt"
 
 # hist files
 export MYSQL_HISTFILE="$XDG_DATA_HOME/mysql_history"

@@ -13,13 +13,19 @@ replace surrounding char    | cs<from><to>                t for tag
 remove surrounding char     | ds<char>                    t for tag
 surround word by char       | ysiw<char>                  t for tag
 multi insert next occurance | Ctrl+n
-Goto Definition             | gd
-Goto References             | gr
 
 CORE
 recording | q<register> to start, q to stop, @<register> to play
 increment | Ctrl+a
 decrement | Ctrl+x
+
+Goto Definition             | gd
+Goto References             | gr
+Goto Declaration            | gD
+Goto Type Defination        | go
+Goto Signature              | gd
+Display Hover               | gh
+Rename variable             | Tab + r
 
 SELF
 Tab + [   | goto previous opened file

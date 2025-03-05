@@ -8,6 +8,7 @@ normalmap(";", ":")
 
 -- Tab bindings
 normalmap("<Tab>e", ":NvimTreeToggle <CR>")
+normalmap("<Tab>u", ":UndotreeToggle <CR>")
 normalmap("<Tab>i", "gg=G")
 normalmap("<Tab>c", ":%y+<cr>")
 normalmap("<Tab>s", ":vsplit <cr>")

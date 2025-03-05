@@ -38,6 +38,7 @@ alias cdm="cd $HOME/music"
 alias cdn="cd $HOME/notes"
 alias cdnc="cd $HOME/notes/cs"
 alias cdnd="cd $HOME/notes/dsa"
+alias cdnn="cd $HOME/notes/networks"
 alias cdnl="cd $HOME/notes/linux"
 alias cdd="cd $HOME/dl"
 
