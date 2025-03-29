@@ -3,3 +3,5 @@
 	name = AyushmanTripathy
 [alias]
   diffwords = diff --color-words='[^[:space:]]|([[:alnum:]]|UTF_8_GUARD)+'
+[core]
+	compression = 0

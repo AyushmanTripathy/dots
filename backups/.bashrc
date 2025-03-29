@@ -35,3 +35,6 @@ cat quotes.txt | shuf -o quotes.txt && head -1 quotes.txt
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 . "/home/ayush/.deno/env"
 source /home/ayush/.local/share/bash-completion/completions/deno.bash
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"

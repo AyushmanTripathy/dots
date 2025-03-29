@@ -15,7 +15,10 @@ surround word by char       | ysiw<char>                  t for tag
 multi insert next occurance | Ctrl+n
 
 CORE
-recording | q<register> to start, q to stop, @<register> to play
+record macro            | q<register> to start, q to stop
+play macro              | @<register> to play
+play for selected lines | select, : norm! @<register>
+
 increment | Ctrl+a
 decrement | Ctrl+x
 

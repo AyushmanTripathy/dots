@@ -12,7 +12,7 @@ if not (vim.uv or vim.loop).fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 
--- for emmet 
+-- for emmet
 vim.g.user_emmet_leader_key = ','
 vim.g.user_emmet_settings = {
   javascript = {
@@ -21,24 +21,35 @@ vim.g.user_emmet_settings = {
 }
 
 require("lazy").setup({
+  {
+    "luckasRanarison/tailwind-tools.nvim",
+    name = "tailwind-tools",
+    build = ":UpdateRemotePlugins",
+    dependencies = {
+      "nvim-treesitter/nvim-treesitter",
+      "nvim-telescope/telescope.nvim", -- optional
+      "neovim/nvim-lspconfig",       -- optional
+    }
+  },
+
   "mbbill/undotree",
   "nvim-treesitter/nvim-treesitter-context",
-  { "ellisonleao/gruvbox.nvim", priority = 1000 , config = true },
+  { "ellisonleao/gruvbox.nvim", priority = 1000,   config = true },
   "maxmellon/vim-jsx-pretty",
   "mg979/vim-visual-multi",
   "ibhagwan/fzf-lua",
-  { "kylechui/nvim-surround", event = "VeryLazy" },
+  { "kylechui/nvim-surround",   event = "VeryLazy" },
   "prettier/vim-prettier",
   "mattn/emmet-vim",
-  { "nvim-tree/nvim-tree.lua", config = true },
+  { "nvim-tree/nvim-tree.lua",          config = true },
   "nvim-lualine/lualine.nvim",
 
-  {'neovim/nvim-lspconfig'},
-  {'hrsh7th/cmp-nvim-lsp'},
-  {'hrsh7th/nvim-cmp'},
+  { 'neovim/nvim-lspconfig' },
+  { 'hrsh7th/cmp-nvim-lsp' },
+  { 'hrsh7th/nvim-cmp' },
 
-  {'williamboman/mason.nvim'},
-  {'williamboman/mason-lspconfig.nvim'},
+  { 'williamboman/mason.nvim' },
+  { 'williamboman/mason-lspconfig.nvim' },
 })
 
 require("treesitter-context").setup()
@@ -53,4 +64,3 @@ require("nvim-surround").setup({
 vim.cmd.colorscheme("gruvbox")
 vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
 vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })
-
