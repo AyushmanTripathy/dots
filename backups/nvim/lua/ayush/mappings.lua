@@ -17,6 +17,7 @@ normalmap("<Tab>p", ":PrettierAsync <CR>")
 
 -- FzfLua
 normalmap("<Tab>f", ":FzfLua files previewer=false<cr>")
+normalmap("<Tab>c", ":FzfLua git_bcommits winopts.fullscreen=true winopts.border=none winopts.preview.border=none winopts.preview.vertical='down:85%' winopts.preview.layout=vertical <cr>")
 normalmap("<Tab>o", ":FzfLua builtin <cr>")
 normalmap("<Tab>w", ":FzfLua buffers <cr>")
 normalmap("<Tab>g", ":FzfLua live_grep<cr>")
