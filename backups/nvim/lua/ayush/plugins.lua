@@ -22,13 +22,21 @@ vim.g.user_emmet_settings = {
 
 require("lazy").setup({
   {
+    "nvim-treesitter/nvim-treesitter",
+    lazy = false,
+    build = ":TSUpdate",
+    opts = {
+      highlight = { enable = true },
+    },
+  },
+  {
     "luckasRanarison/tailwind-tools.nvim",
     name = "tailwind-tools",
     build = ":UpdateRemotePlugins",
     dependencies = {
       "nvim-treesitter/nvim-treesitter",
       "nvim-telescope/telescope.nvim", -- optional
-      "neovim/nvim-lspconfig",       -- optional
+      "neovim/nvim-lspconfig",         -- optional
     }
   },
 
@@ -52,6 +60,16 @@ require("lazy").setup({
   { 'williamboman/mason-lspconfig.nvim' },
 })
 
+require('nvim-treesitter.configs').setup {
+  -- A list of parser names, or "all" (the five listed parsers should always be installed)
+  ensure_installed = { "c", "lua", "html", "javascript", "svelte", "typescript" },
+  -- Install parsers synchronously (only applied to `ensure_installed`)
+  sync_install = false,
+  highlight = {
+    enable = true,
+    additional_vim_regex_highlighting = false,
+  },
+}
 require("treesitter-context").setup()
 
 require("nvim-surround").setup({

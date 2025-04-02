@@ -16,5 +16,6 @@ quotes.txt
 .local/src/dwmblocks/blocks.def.h
 .local/src/slock/config.def.h
 .local/share/help
+.local/share/bun_ports.txt
 .local/share/emojis.txt
 .local/share/wallpaper.txt

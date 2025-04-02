@@ -34,5 +34,5 @@ export PATH="$PATH:$HOME/bin"
 # for kitty
 [ -z "$KITTY_WINDOW_ID" ] && [[ -f ~/.bashrc ]] && . ~/.bashrc
 
-[ -f .deno/env ] && sh .deno/env
+#[ -f .deno/env ] && sh .deno/env
 startx $XDG_CONFIG_HOME/X11/xinitrc

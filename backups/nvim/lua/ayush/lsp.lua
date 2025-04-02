@@ -12,7 +12,8 @@ lspconfig_defaults.capabilities = vim.tbl_deep_extend(
 )
 
 require('mason').setup({})
-local function add_lsp()
+
+function AddLsp()
   require('mason-lspconfig').setup({
     handlers = {
       function(server_name)
@@ -22,7 +23,7 @@ local function add_lsp()
   })
   vim.cmd("e")
 end
-vim.keymap.set("n", "<leader>l", add_lsp)
+vim.keymap.set("n", "<leader>l", AddLsp)
 
 local cmp = require('cmp')
 
