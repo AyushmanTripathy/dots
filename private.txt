@@ -1,6 +1,7 @@
 todo.txt
 agenda.txt
 playlist.txt
+work
 watchlist.txt
 misiki.md
 private
