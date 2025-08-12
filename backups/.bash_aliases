@@ -25,6 +25,8 @@ alias rename-seq='ls -v | cat -n | while read n f; do mv -n "$f" "$n"; done'
 # cd command
 alias ..='cd ..'
 alias cdp='cd ~/projects'
+alias cdw='cd ~/work'
+alias cdwp='cd ~/work && nvim $(find . -maxdepth 1 -type f | fzf)'
 alias cdpp='cd ~/projects && cd $(find . -maxdepth 1 -type d | fzf)'
 alias cdb='cd ~/.local/bin'
 alias cdl='cd ~/.local'
@@ -41,6 +43,7 @@ alias cdnd="cd $HOME/notes/dsa"
 alias cdnn="cd $HOME/notes/networks"
 alias cdnl="cd $HOME/notes/linux"
 alias cdd="cd $HOME/dl"
+alias cddt="cd $HOME/dl/tele"
 
 alias reboot='echo "sure you wanna do that?" && read $NULL && reboot' 
 alias shutdown='echo "sure you wanna do that?" && read $NULL && shutdown now'

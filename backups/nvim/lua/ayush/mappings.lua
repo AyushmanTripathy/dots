@@ -15,23 +15,42 @@ normalmap("<Tab>s", ":vsplit <cr>")
 normalmap("<Tab>h", ":set hlsearch!<cr>")
 normalmap("<Tab>p", ":PrettierAsync <CR>")
 
+-- local function fullscreen_horizontal(preview_height)
+--   return "winopts.fullscreen=true winopts.border=none winopts.preview.border=none winopts.preview.layout=vertical winopts.preview.vertical='down:" .. preview_height .. "%'"
+-- end
+-- 
+local function fullscreen_horizontal(preview_height)
+  return "winopts.fullscreen=true winopts.border=none winopts.preview.border=none winopts.preview.layout=vertical winopts.preview.vertical='down:" .. preview_height .. "%'<cr>"
+end
+local function fullscreen_vertical(preview_width)
+  return "winopts.fullscreen=true winopts.border=none winopts.preview.border=none winopts.preview.horizontal='right:" .. preview_width .. "%'"
+end
+
 -- FzfLua
 normalmap("<Tab>f", ":FzfLua files previewer=false<cr>")
-normalmap("<Tab>c", ":FzfLua git_bcommits winopts.fullscreen=true winopts.border=none winopts.preview.border=none winopts.preview.vertical='down:85%' winopts.preview.layout=vertical <cr>")
 normalmap("<Tab>o", ":FzfLua builtin <cr>")
 normalmap("<Tab>w", ":FzfLua buffers <cr>")
-normalmap("<Tab>g", ":FzfLua live_grep<cr>")
+normalmap("<Tab>g", ":FzfLua live_grep " .. fullscreen_vertical(60) .. "<cr>")
+
+normalmap("<leader>g", ":FzfLua git_commits " .. fullscreen_vertical(85) .. "<cr>")
+normalmap("<leader>c", ":FzfLua git_bcommits " .. fullscreen_vertical(85) .. "<cr>")
+normalmap("<leader>s", ":silent FzfLua git_status " .. fullscreen_horizontal(85) .. "<cr>")
 
 vim.keymap.set('n', 'gf', '<cmd>lua vim.lsp.buf.format({async = true})<cr>', opts)
+vim.api.nvim_set_keymap(
+  'n', 'gl', ':lua vim.diagnostic.open_float()<CR>', 
+  { noremap = true, silent = true }
+)
+
 vim.api.nvim_create_autocmd('LspAttach', {
   desc = 'LSP actions',
   callback = function(event)
     local opts = { buffer = event.buf }
 
     normalmap("gd", ":FzfLua lsp_definitions <cr>")
-    normalmap("gr", ":FzfLua lsp_references <cr>")
+    normalmap("gr", ":FzfLua lsp_references " .. fullscreen_vertical(60) .. "<cr>")
     normalmap("<Tab>a", ":FzfLua lsp_code_actions <cr>")
-    normalmap("<Tab>l", ":FzfLua diagnostics_document <cr>")
+    normalmap("<Tab>l", ":FzfLua diagnostics_document " .. fullscreen_horizontal (50) .. "<cr>")
     vim.keymap.set('n', 'gh', '<cmd>lua vim.lsp.buf.hover()<cr>', opts)
     vim.keymap.set('n', 'gD', '<cmd>lua vim.lsp.buf.declaration()<cr>', opts)
     vim.keymap.set('n', 'gi', '<cmd>lua vim.lsp.buf.implementation()<cr>', opts)
@@ -63,7 +82,7 @@ insertmap("<leader><cr>", "<C-o>o")
 insertmap("<leader>f", "<C-x><C-f>")
 
 local keys_shifted = {
-  { "`", "~" }, { "1", "!" }, { "2", "@" }, { "3", "#" }, { '4', '$' }, { '5', '%' },
+  { "a", "&" }, { "`", "~" }, { "1", "!" }, { "2", "@" }, { "3", "#" }, { '4', '$' }, { '5', '%' },
   { '6', '^' }, { '7', '&' }, { '8', '*' }, { '0', ')' }, { '-', '_' }, { '=', '+' }, { ';', ':' }, { "'", '"' },
   { ',', '<' }, { '.', '>' }, { '/', '?' }, { "]", "}" }, { '9', '()<Left>' }, { '[', '{}<Left>' }
 }

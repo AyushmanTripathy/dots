@@ -70,7 +70,32 @@ require('nvim-treesitter.configs').setup {
     additional_vim_regex_highlighting = false,
   },
 }
-require("treesitter-context").setup()
+
+require("fzf-lua").setup({
+  keymaps = {
+    ["<S-down>"] = "preview-down",
+    ["<S-up>"]   = "preview-up",
+  },
+  git = {
+    commits = {
+    },
+    bcommits = {
+      prompt  = 'BCommits❯ ',
+      -- default preview shows a git diff vs the previous commit
+      -- if you prefer to see the entire commit you can use:
+      --   git show --color {1} --rotate-to={file}
+      --   {1}    : commit SHA (fzf field index expression)
+      --   {file} : filepath placement within the commands
+      cmd     = [[git log --color --pretty=format:"%C(yellow)%h%Creset ]]
+          .. [[%Cgreen(%><(12)%cr%><|(12))%Creset %s %C(blue)<%an>%Creset" {file}]],
+      preview = "git show --color {1} -- {file}",
+    }
+  }
+})
+
+require("treesitter-context").setup({
+  max_lines = 8
+})
 
 require("nvim-surround").setup({
   keymaps = {

@@ -4,6 +4,11 @@
 
 -- Add cmp_nvim_lsp capabilities settings to lspconfig
 -- This should be executed before you configure any language server
+-- require("lspconfig.configs").vtsls = require("vtsls").lspconfig -- set default server config, optional but recommended
+
+-- If the lsp setup is taken over by other plugin, it is the same to call the counterpart setup function
+-- require("lspconfig").vtsls.setup({ --[[ your custom server config here ]] })
+
 local lspconfig_defaults = require('lspconfig').util.default_config
 lspconfig_defaults.capabilities = vim.tbl_deep_extend(
   'force',
