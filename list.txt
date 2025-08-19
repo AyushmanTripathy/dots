@@ -3,6 +3,8 @@
 .bash_profile
 quotes.txt
 .config/nvim
+.config/htop
+.config/redshift
 .config/npmrc
 .config/alacritty.toml
 .config/X11

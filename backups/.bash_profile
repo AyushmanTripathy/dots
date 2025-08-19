@@ -31,7 +31,6 @@ export NPM_CONFIG_USERCONFIG="$XDG_CONFIG_HOME/npmrc"
 export PATH="$PATH:$HOME/.local/app_images:$HOME/.local/bin:$XDG_DATA_HOME/npm/bin/"
 export PATH="$PATH:$HOME/bin"
 
-microphone -r
 # for kitty
 [ -z "$KITTY_WINDOW_ID" ] && [[ -f ~/.bashrc ]] && . ~/.bashrc
 

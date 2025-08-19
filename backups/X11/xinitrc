@@ -35,4 +35,6 @@ keymap
 picom &
 redshift &
 dwmblocks &
+
+microphone -r
 exec dwm

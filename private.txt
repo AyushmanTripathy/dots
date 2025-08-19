@@ -3,6 +3,6 @@ agenda.txt
 playlist.txt
 work
 watchlist.txt
-misiki.md
 private
 .local/share/ytp/playlists.txt
+.local/share/volume_levels.txt
