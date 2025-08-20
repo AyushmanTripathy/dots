@@ -45,6 +45,7 @@ backup(){
   rm secrets.tar
   mv secrets.tar.asc backups/
 
+  sync-env
   push_to_git
 }
 
