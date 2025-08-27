@@ -36,5 +36,4 @@ cat quotes.txt | shuf -o quotes.txt && head -1 quotes.txt
 # . "/home/ayush/.deno/env"
 # source /home/ayush/.local/share/bash-completion/completions/deno.bash
 # bun
-export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"

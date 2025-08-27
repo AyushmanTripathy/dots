@@ -22,6 +22,7 @@ export LESSHISTFILE=-
 export HISTFILE="$XDG_DATA_HOME/.bash_history"
 export NODE_REPL_HISTORY="$XDG_DATA_HOME/node_repl_history"
 
+export BUN_INSTALL="$XDG_DATA_HOME/bun"
 export NVM_DIR="$XDG_DATA_HOME/nvm"
 export NPM_CONFIG_USERCONFIG="$XDG_CONFIG_HOME/npmrc"
 
