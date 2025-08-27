@@ -40,7 +40,7 @@ backup(){
   done
 
   tar -czf secrets.tar private || error "tar failed"
-  rm -r private
+  rm -rf private
   gpg --encrypt --sign --armour -r ayushmantripathy2004@gmail.com secrets.tar
   rm secrets.tar
   mv secrets.tar.asc backups/
