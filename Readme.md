@@ -6,8 +6,7 @@ I like optimising my setup for speed and ease of use.
 
 ### Screenshots
 
-![overall look](https://github.com/AyushmanTripathy/dots/assets/85863923/877eb395-1ce6-4a71-ba42-f4c26729fb57)
-![neovim config](https://github.com/AyushmanTripathy/dots/assets/85863923/bed9107a-0cae-4988-a6c7-a927f89e477b)
+![overall look](https://github.com/user-attachments/assets/fe23118e-882a-412a-b49a-f1d92fdaaffc)
 
 ### Setup
 
