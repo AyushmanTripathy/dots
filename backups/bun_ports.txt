@@ -23,3 +23,4 @@ monso|3021
 sparkinity-api|3022
 sparkinity-admin|3023
 memes-tinder|3024
+kitcommerce-api|3025

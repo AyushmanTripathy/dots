@@ -90,7 +90,7 @@ retrive_private() {
     cp -r "private/$(basename $line)" "$HOME/$line" || echo "cannot copy $line"
   done
 
-  rm -r private
+  rm -rf private
 }
 
 while getopts "r b a: p" opt
