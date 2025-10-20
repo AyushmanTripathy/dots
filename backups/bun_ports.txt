@@ -24,3 +24,6 @@ sparkinity-api|3022
 sparkinity-admin|3023
 memes-tinder|3024
 kitcommerce-api|3025
+misiki-2025|3026
+giet-erp-photos|3027
+ice-heist|3028

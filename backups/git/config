@@ -1,6 +1,8 @@
 [user]
-	email = ayushmantripathy2004@gmail.com
-	name = AyushmanTripathy
+  email = ayushmantripathy2004@gmail.com
+  name = AyushmanTripathy
+  #email = supradatripathy789@gmail.com
+  #name = Suprada-2002
 [alias]
   diffwords = diff --color-words='[^[:space:]]|([[:alnum:]]|UTF_8_GUARD)+'
 [core]
