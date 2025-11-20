@@ -31,10 +31,10 @@ if [ -d /etc/X11/xinit/xinitrc.d ] ; then
 fi
 
 xwallpaper --zoom "$(cat $WALLPAPER)" &
+microphone -r
 keymap
 picom &
 redshift &
 dwmblocks &
 
-microphone -r
 exec dwm

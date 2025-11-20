@@ -30,6 +30,7 @@ fi
 
 # custom commands at start
 pfetch
+echo "set -euo pipefail"
 cat quotes.txt | shuf -o quotes.txt && head -1 quotes.txt
 
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
