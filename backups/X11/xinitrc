@@ -33,6 +33,8 @@ fi
 xwallpaper --zoom "$(cat $WALLPAPER)" &
 microphone -r
 keymap
+# turn off power led
+echo 0 > "/sys/class/leds/tpacpi::power/brightness"
 picom &
 redshift &
 dwmblocks &

@@ -14,6 +14,13 @@ export GITHUB_USERNAME="AyushmanTripathy"
 export MUSICDB="$HOME/music"
 export WALLPAPER="$XDG_DATA_HOME/wallpaper.txt"
 
+# package specific
+export NUGET_PACKAGES="$XDG_CACHE_HOME/NuGetPackages"
+export DOCKER_CONFIG="$XDG_CONFIG_HOME/docker"
+export MACHINE_STORAGE_PATH="$XDG_DATA_HOME/docker-machine"
+export GOPATH="$XDG_DATA_HOME/go"
+export GOMODCACHE="$XDG_CACHE_HOME/go/mod"
+
 # hist files
 export MYSQL_HISTFILE="$XDG_DATA_HOME/mysql_history"
 export SQLITE_HISTORY="$XDG_DATA_HOME/sqlite_history.sql"

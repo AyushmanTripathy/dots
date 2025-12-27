@@ -30,3 +30,5 @@ ice-heist|3028
 secretgreen|3029
 varni-jewelsonfire-main|3030
 shrujan-frontend|3031
+shrujan-admin|3032
+zenavi|3033
