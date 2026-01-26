@@ -39,13 +39,14 @@ backup(){
     cp -r "$HOME/$line" "private/$(basename $line)" || error "cannot copy $line"
   done
 
+  sync-env
+
   tar -czf secrets.tar private || error "tar failed"
   rm -rf private
   gpg --encrypt --sign --armour -r ayushmantripathy2004@gmail.com secrets.tar
   rm secrets.tar
   mv secrets.tar.asc backups/
 
-  sync-env
   push_to_git
 }
 
