@@ -36,6 +36,7 @@ alias cdldh="cd $XDG_DATA_HOME/help"
 alias cdc="cd $XDG_CONFIG_HOME"
 alias cdcn="cd $XDG_CONFIG_HOME/nvim"
 alias cdt='cd ~/tmp'
+alias cdtp='cd ~/tmp && cd $(find . -maxdepth 1 -type d | fzf)'
 alias cdts='cd ~/tmp/short'
 alias cdm="cd $HOME/music"
 alias cdn="cd $HOME/notes"

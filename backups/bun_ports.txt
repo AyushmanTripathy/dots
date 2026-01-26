@@ -32,3 +32,6 @@ varni-jewelsonfire-main|3030
 shrujan-frontend|3031
 shrujan-admin|3032
 zenavi|3033
+shreeramagrotech|3034
+abandoned-cart-recovery|3035
+acr|3036
