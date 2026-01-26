@@ -32,14 +32,14 @@ backup(){
     cp -r "$HOME/$line" "backups/$(basename $line)" || error "cannot copy $line"
   done
 
+  sync-env
+
   mkdir private
   cat $LOCATION/private.txt | while read line
   do
     echo "backing up [private] $line"
     cp -r "$HOME/$line" "private/$(basename $line)" || error "cannot copy $line"
   done
-
-  sync-env
 
   tar -czf secrets.tar private || error "tar failed"
   rm -rf private
