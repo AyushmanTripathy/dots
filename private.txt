@@ -6,3 +6,4 @@ watchlist.txt
 private
 .local/share/ytp/playlists.txt
 .local/share/volume_levels.txt
+.config/chromium/Default/Bookmarks
