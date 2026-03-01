@@ -1,0 +1,8 @@
+Play randoms: cd $MUSICDB; mpv $(cat *.txt | sort -R)
+Play latests: cd $MUSICDB; mpv $(tac $HOME/playlist.txt | awk '{ print $3"/"$1 }')
+
+Play language randomly: cd $MUSICDB; mpv $(find $(find -type d | fzf) | sort -R)
+Play category randomly: cd $MUSICDB; mpv $(cat $(ls *.txt | fzf) | sort -R)
+
+Play language latests: cd $MUSICDB; mpv $(tac $HOME/playlist.txt | grep " $(basename $(find . -type d | fzf)) "  | awk '{ print $3"/"$1 }')
+Play category latests: cd $MUSICDB; mpv $(tac $HOME/playlist.txt | grep $(ls *.txt | fzf)  | awk '{ print $3"/"$1 }')

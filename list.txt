@@ -19,5 +19,6 @@ quotes.txt
 .local/src/slock/config.def.h
 .local/share/help
 .local/share/bun_ports.txt
+.local/share/cmds.txt
 .local/share/emojis.txt
 .local/share/wallpaper.txt
