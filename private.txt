@@ -4,6 +4,7 @@ playlist.txt
 work
 watchlist.txt
 private
+.claude/settings.json
 .local/share/ytp/playlists.txt
 .local/share/volume_levels.txt
 .config/chromium/Default/Bookmarks
