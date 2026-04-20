@@ -25,6 +25,7 @@ require("lazy").setup({
     "nvim-treesitter/nvim-treesitter",
     lazy = false,
     build = ":TSUpdate",
+    main = 'nvim-treesitter.config',
     opts = {
       highlight = { enable = true },
     },
@@ -46,7 +47,7 @@ require("lazy").setup({
   "maxmellon/vim-jsx-pretty",
   "mg979/vim-visual-multi",
   "ibhagwan/fzf-lua",
-  { "kylechui/nvim-surround",   event = "VeryLazy" },
+  { 'nvim-mini/mini.nvim', version = '*' },
   "prettier/vim-prettier",
   "mattn/emmet-vim",
   { "nvim-tree/nvim-tree.lua",          config = true },
@@ -60,11 +61,11 @@ require("lazy").setup({
   { 'williamboman/mason-lspconfig.nvim' },
 })
 
-require('nvim-treesitter.configs').setup {
+require('nvim-treesitter.config').setup {
   -- A list of parser names, or "all" (the five listed parsers should always be installed)
   ensure_installed = { "c", "lua", "html", "javascript", "svelte", "typescript" },
   -- Install parsers synchronously (only applied to `ensure_installed`)
-  sync_install = false,
+  -- sync_install = false,
   highlight = {
     enable = true,
     additional_vim_regex_highlighting = false,
@@ -75,6 +76,9 @@ require("fzf-lua").setup({
   keymaps = {
     ["<S-down>"] = "preview-down",
     ["<S-up>"]   = "preview-up",
+  },
+  grep = {
+    resume = true,
   },
   git = {
     commits = {
@@ -93,14 +97,49 @@ require("fzf-lua").setup({
   }
 })
 
-require("treesitter-context").setup({
-  max_lines = 8
+require('mini.surround').setup({
+  -- Add custom surroundings to be used on top of builtin ones. For more
+  -- information with examples, see `:h MiniSurround.config`.
+  custom_surroundings = nil,
+
+  -- Duration (in ms) of highlight when calling `MiniSurround.highlight()`
+  highlight_duration = 500,
+
+  -- Module mappings. Use `''` (empty string) to disable one.
+  mappings = {
+    add = 's', -- Add surrounding in Normal and Visual modes
+    delete = 'ds', -- Delete surrounding
+    find = 'cf', -- Find surrounding (to the right)
+    find_left = 'sF', -- Find surrounding (to the left)
+    highlight = 'sh', -- Highlight surrounding
+    replace = 'cs', -- Replace surrounding
+
+    suffix_last = 'l', -- Suffix to search with "prev" method
+    suffix_next = 'n', -- Suffix to search with "next" method
+  },
+
+  -- Number of lines within which surrounding is searched
+  n_lines = 20,
+
+  -- Whether to respect selection type:
+  -- - Place surroundings on separate lines in linewise mode.
+  -- - Place surroundings on each line in blockwise mode.
+  respect_selection_type = false,
+
+  -- How to search for surrounding (first inside current line, then inside
+  -- neighborhood). One of 'cover', 'cover_or_next', 'cover_or_prev',
+  -- 'cover_or_nearest', 'next', 'prev', 'nearest'. For more details,
+  -- see `:h MiniSurround.config`.
+  search_method = 'cover',
+
+  -- Whether to disable showing non-error feedback
+  -- This also affects (purely informational) helper messages shown after
+  -- idle time if user input is required.
+  silent = false,
 })
 
-require("nvim-surround").setup({
-  keymaps = {
-    visual = 's'
-  }
+require("treesitter-context").setup({
+  max_lines = 8
 })
 
 -- theming

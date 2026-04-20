@@ -31,9 +31,14 @@ export NODE_REPL_HISTORY="$XDG_DATA_HOME/node_repl_history"
 
 export IS_THINKPAD=1
 
+export RUSTUP_HOME="$XDG_DATA_HOME/rustup"
+export CARGO_HOME="$XDG_DATA_HOME/cargo"
+export CLAUDE_CONFIG_DIR="$XDG_CONFIG_HOME/claude"
+export GEMINI_CONFIG_DIR="$XDG_CONFIG_HOME/gemini"
 export BUN_INSTALL="$XDG_DATA_HOME/bun"
 export NVM_DIR="$XDG_DATA_HOME/nvm"
 export NPM_CONFIG_USERCONFIG="$XDG_CONFIG_HOME/npmrc"
+export _JAVA_OPTIONS=-Djavafx.cachedir="$XDG_CACHE_HOME"/openjfx
 
 #export XINITRC="$XDG_CONFIG_HOME/X11/xinitrc"
 #export XAUTHORITY="$XDG_CONFIG_HOME/X11/xauthority"

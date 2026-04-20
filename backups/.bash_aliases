@@ -5,6 +5,7 @@ alias src='source ~/.bashrc'
 alias quote='printf "\n$(sort -R ~/quotes.txt | head -n1)\n"'
 alias gitlog='git log --all --decorate --graph --oneline'
 alias tree='tree --gitignore'
+alias ss='sudo ss -ltnp'
 
 alias open="xdg-open"
 alias du='du -h'
