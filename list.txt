@@ -6,7 +6,7 @@ quotes.txt
 .config/htop
 .config/redshift
 .config/npmrc
-.config/alacritty.toml
+.config/alacritty
 .config/X11
 .config/moc
 .config/git
@@ -15,8 +15,8 @@ quotes.txt
 .config/dunst
 .config/picom
 .config/sqlite3
-config/qBittorrent/dracula.qbtheme
-config/qBittorrent/qBittorrent.conf
+.config/qBittorrent/dracula.qbtheme
+.config/qBittorrent/qBittorrent.conf
 .local/src/dwmblocks/blocks.def.h
 .local/src/slock/config.def.h
 .local/share/help
