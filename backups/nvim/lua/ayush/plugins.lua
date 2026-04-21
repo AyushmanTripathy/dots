@@ -21,28 +21,28 @@ vim.g.user_emmet_settings = {
 }
 
 require("lazy").setup({
-  {
-    "nvim-treesitter/nvim-treesitter",
-    lazy = false,
-    build = ":TSUpdate",
-    main = 'nvim-treesitter.config',
-    opts = {
-      highlight = { enable = true },
-    },
-  },
-  {
-    "luckasRanarison/tailwind-tools.nvim",
-    name = "tailwind-tools",
-    build = ":UpdateRemotePlugins",
-    dependencies = {
-      "nvim-treesitter/nvim-treesitter",
-      "nvim-telescope/telescope.nvim", -- optional
-      "neovim/nvim-lspconfig",         -- optional
-    }
-  },
+--  {
+--    "nvim-treesitter/nvim-treesitter",
+--    lazy = false,
+--    build = ":TSUpdate",
+--    main = 'nvim-treesitter.config',
+--    opts = {
+--      highlight = { enable = true },
+--    },
+--  },
+--  {
+--    "luckasRanarison/tailwind-tools.nvim",
+--    name = "tailwind-tools",
+--    build = ":UpdateRemotePlugins",
+--    dependencies = {
+--      "nvim-treesitter/nvim-treesitter",
+--      "nvim-telescope/telescope.nvim", -- optional
+--      "neovim/nvim-lspconfig",         -- optional
+--    }
+--  },
 
   "mbbill/undotree",
-  "nvim-treesitter/nvim-treesitter-context",
+--  "nvim-treesitter/nvim-treesitter-context",
   { "ellisonleao/gruvbox.nvim", priority = 1000,   config = true },
   "maxmellon/vim-jsx-pretty",
   "mg979/vim-visual-multi",
@@ -59,18 +59,34 @@ require("lazy").setup({
 
   { 'williamboman/mason.nvim' },
   { 'williamboman/mason-lspconfig.nvim' },
+  {
+    "romus204/tree-sitter-manager.nvim",
+    dependencies = {}, -- tree-sitter CLI must be installed system-wide
+    config = function()
+      require("tree-sitter-manager").setup({
+        -- Default Options
+        -- ensure_installed = {}, -- list of parsers to install at the start of a neovim session
+        -- border = nil, -- border style for the window (e.g. "rounded", "single"), if nil, use the default border style defined by 'vim.o.winborder'. See :h 'winborder' for more info.
+        -- auto_install = false, -- if enabled, install missing parsers when editing a new file
+        -- highlight = true, -- treesitter highlighting is enabled by default
+        -- languages = {}, -- override or add new parser sources
+        -- parser_dir = vim.fn.stdpath("data") .. "/site/parser",
+        -- query_dir = vim.fn.stdpath("data") .. "/site/queries",
+      })
+    end
+  },
 })
 
-require('nvim-treesitter.config').setup {
-  -- A list of parser names, or "all" (the five listed parsers should always be installed)
-  ensure_installed = { "c", "lua", "html", "javascript", "svelte", "typescript" },
-  -- Install parsers synchronously (only applied to `ensure_installed`)
-  -- sync_install = false,
-  highlight = {
-    enable = true,
-    additional_vim_regex_highlighting = false,
-  },
-}
+-- require('nvim-treesitter.config').setup {
+--   -- A list of parser names, or "all" (the five listed parsers should always be installed)
+--   ensure_installed = { "c", "lua", "html", "javascript", "svelte", "typescript" },
+--   -- Install parsers synchronously (only applied to `ensure_installed`)
+--   -- sync_install = false,
+--   highlight = {
+--     enable = true,
+--     additional_vim_regex_highlighting = false,
+--   },
+-- }
 
 require("fzf-lua").setup({
   keymaps = {
@@ -138,11 +154,12 @@ require('mini.surround').setup({
   silent = false,
 })
 
-require("treesitter-context").setup({
-  max_lines = 8
-})
+-- require("treesitter-context").setup({
+--   max_lines = 8
+-- })
 
 -- theming
 vim.cmd.colorscheme("gruvbox")
 vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
 vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })
+  
