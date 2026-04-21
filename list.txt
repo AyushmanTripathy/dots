@@ -18,7 +18,6 @@ quotes.txt
 .config/qBittorrent/dracula.qbtheme
 .config/qBittorrent/qBittorrent.conf
 .local/src/dwmblocks/blocks.def.h
-.local/src/slock/config.def.h
 .local/share/help
 .local/share/bun_ports.txt
 .local/share/cmds.txt
