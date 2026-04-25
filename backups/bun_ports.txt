@@ -48,3 +48,6 @@ dashboard|3046
 woocommerce-search|3047
 sim|3048
 popup|3049
+pos|3050
+portal|3051
+litekart-landing2|3052
