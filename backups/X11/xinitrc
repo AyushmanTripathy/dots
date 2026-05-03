@@ -38,5 +38,6 @@ echo 0 > "/sys/class/leds/tpacpi::power/brightness"
 picom &
 redshift &
 dwmblocks &
+sxhkd &
 
 exec dwm

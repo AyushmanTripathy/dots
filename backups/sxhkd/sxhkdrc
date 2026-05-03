@@ -1,0 +1,50 @@
+# Top level (super)
+super + Return
+  alacritty
+super + shift + Return
+  chromium --profile-directory='Default'
+super + a
+  volume -t
+super + r
+  update-dwmblocks
+super + space
+  dmenu_run
+
+# General (super + x / backslash)
+super + {backslash,x}; h
+  get-help
+super + {backslash,x}; w
+  wifix
+super + {backslash,x}; b
+  bluetooth
+super + {backslash,x}; c
+  saveclip -s
+super + {backslash,x}; v
+  saveclip
+super + {backslash,x}; e
+  emoji
+super + {backslash,x}; s
+  screen
+super + {backslash,x}; q
+  quitdwm
+super + {backslash,x}; a
+  volume -s
+
+# Action keys
+XF86AudioMute
+  volume -m
+XF86AudioRaiseVolume
+  volume -i
+XF86AudioLowerVolume
+  volume -d
+XF86MonBrightnessDown
+  brightness -d 1
+XF86MonBrightnessUp
+  brightness -i 1
+XF86AudioMicMute
+  microphone -t
+XF86Display
+  get-info
+
+Print
+ screen
