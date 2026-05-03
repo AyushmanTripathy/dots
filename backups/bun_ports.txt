@@ -51,3 +51,5 @@ popup|3049
 pos|3050
 portal|3051
 litekart-landing2|3052
+telegram-customer-support-chatbot|3053
+package|3054

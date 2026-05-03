@@ -32,7 +32,7 @@ normalmap("<Tab>o", ":FzfLua builtin <cr>")
 normalmap("<Tab>w", ":FzfLua buffers <cr>")
 normalmap("<Tab>g", ":FzfLua live_grep " .. fullscreen_vertical(60) .. "<cr>")
 
-normalmap("<Tab>j", ":FzfLua live_grep <cr>")
+normalmap("<Tab>j", ":FzfLua resume <cr>")
 
 normalmap("<leader>g", ":FzfLua git_commits " .. fullscreen_vertical(85) .. "<cr>")
 normalmap("<leader>c", ":FzfLua git_bcommits " .. fullscreen_vertical(85) .. "<cr>")
