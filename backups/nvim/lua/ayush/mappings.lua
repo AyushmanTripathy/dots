@@ -14,6 +14,7 @@ normalmap("<Tab>c", ":%y+<cr>")
 normalmap("<Tab>s", ":vsplit <cr>")
 normalmap("<Tab>h", ":set hlsearch!<cr>")
 normalmap("<Tab>p", ":PrettierAsync <CR>")
+normalmap("<Tab>n", ':let @+ = expand("%")<CR>')
 
 -- local function fullscreen_horizontal(preview_height)
 --   return "winopts.fullscreen=true winopts.border=none winopts.preview.border=none winopts.preview.layout=vertical winopts.preview.vertical='down:" .. preview_height .. "%'"
