@@ -58,3 +58,5 @@ ai-content-writer|3056
 varni-project-plan|3057
 misiki-2026|3058
 grid|3059
+ryanjewelers|3060
+alladin3|3061

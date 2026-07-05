@@ -6,7 +6,6 @@ quotes.txt
 .config/nvim
 .config/htop
 .config/redshift
-.config/npmrc
 .config/alacritty
 .config/X11
 .config/moc

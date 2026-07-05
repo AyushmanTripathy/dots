@@ -51,3 +51,7 @@ export PATH="$PATH:$HOME/bin"
 
 #[ -f .deno/env ] && sh .deno/env
 startx $XDG_CONFIG_HOME/X11/xinitrc
+
+
+# Added by Antigravity CLI installer
+export PATH="/home/ayush/.local/bin:$PATH"
