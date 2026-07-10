@@ -49,7 +49,7 @@ require("lazy").setup({
   "ibhagwan/fzf-lua",
   { 'nvim-mini/mini.nvim', version = '*' },
   "prettier/vim-prettier",
-  "mattn/emmet-vim",
+  -- "mattn/emmet-vim",
   { "nvim-tree/nvim-tree.lua",          config = true },
   "nvim-lualine/lualine.nvim",
 
