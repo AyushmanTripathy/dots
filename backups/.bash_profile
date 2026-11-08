@@ -45,6 +45,7 @@ export _JAVA_OPTIONS=-Djavafx.cachedir="$XDG_CACHE_HOME"/openjfx
 #export XAUTHORITY="$XDG_CONFIG_HOME/X11/xauthority"
 export PATH="$PATH:$HOME/.local/app_images:$HOME/.local/bin:$XDG_DATA_HOME/npm/bin/"
 export PATH="$PATH:$HOME/bin"
+go env GOPATH && export PATH="$PATH:$(go env GOPATH)/bin"
 
 # for kitty
 [ -z "$KITTY_WINDOW_ID" ] && [[ -f ~/.bashrc ]] && . ~/.bashrc
