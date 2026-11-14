@@ -61,8 +61,10 @@ XF86Display
   get-info
 
 # Switching keys
+super + Tab
+  bspc node last -f
 super + {_,shift + }{1-9}
-    bspc {desktop -f,node -d} '^{1-9}'
+  bspc {desktop -f,node -d} '^{1-9}'
 alt + {_,shift + }Tab
 	bspc node -f {next,prev}.local.!hidden.window
 
