@@ -9,6 +9,10 @@ super + r
   update-dwmblocks
 super + space
   dmenu_run
+super + q
+  bspc node -c
+super + shift + q
+  for win in $(bspc query -N -n .window); do bspc node "$win" -c; done && bspc quit
 
 # General (super + x / backslash)
 super + {backslash,x}; h
@@ -29,6 +33,16 @@ super + {backslash,x}; q
   quitdwm
 super + {backslash,x}; a
   volume -s
+super + {backslash,x}; k
+  pkill -USR1 -x sxhkd
+
+# Layout keys
+super + l; m
+  bspc desktop -l monocle
+super + l; t
+  bspc desktop -l tiled
+super + l; f
+  bspc node -t '~floating'
 
 # Action keys
 XF86AudioMute
@@ -45,6 +59,12 @@ XF86AudioMicMute
   microphone -t
 XF86Display
   get-info
+
+# Switching keys
+super + {_,shift + }{1-9}
+    bspc {desktop -f,node -d} '^{1-9}'
+alt + {_,shift + }Tab
+	bspc node -f {next,prev}.local.!hidden.window
 
 Print
  screen
